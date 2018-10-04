@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Costco API Automation Script " parallel="false">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="68.0"/>
+    <parameter name="url" value="https://www.costco.com/"/>
+
+    <test name = "Search Test">
+        <classes>
+            <class name="testPages.TestHomePage"/>
+            <class name="testPages.TestGrocery"/>
+            <class name="testPages.TestSignIn"/>
+            <class name="testPages.TestBilling"/>
+            <class name="testPages.TestCountrySelection"/>
+            <class name="testPages.TestCustomerService"/>
+            <class name="testDataReader.SignIn"/>
+            <class name="testSignInGS.TestSignInBar"/>
+            <class name="triggerTest.TestTrigger"/>
+            <class name="testSearchBar.TestElementSearch"/>
+            <!--<class name="menu.MenuPage"/>-->
+        </classes>
+    </test>
+
+</suite>

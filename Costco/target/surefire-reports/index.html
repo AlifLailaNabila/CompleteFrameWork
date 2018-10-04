@@ -1,0 +1,2499 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">44 methods, 1 failed,   43 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestCountrySelection" hash-for-method="testDismissAlert">testDismissAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testSignInGS.TestSignInBar" hash-for-method="SearchItemsFromSearchBox">SearchItemsFromSearchBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="hoverPharmacy">hoverPharmacy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestSignIn" hash-for-method="openSignInBar">openSignInBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestGrocery" hash-for-method="photoHoverTest2">photoHoverTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testAllDept">testAllDept</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testAllInput">testAllInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestGrocery" hash-for-method="testClearZipCode">testClearZipCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestCountrySelection" hash-for-method="testConvertToString">testConvertToString</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testCostcoLogo">testCostcoLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestCustomerService" hash-for-method="testCreditCard">testCreditCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testCurrentURL">testCurrentURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestCustomerService" hash-for-method="testCustomerService">testCustomerService</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestGrocery" hash-for-method="testDefaultWindow">testDefaultWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testDropDownOfAll">testDropDownOfAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testDropdownOfAll">testDropdownOfAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testEnableStatusSearchBar">testEnableStatusSearchBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testGetAllDept">testGetAllDept</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testGetAllLinks">testGetAllLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestGrocery" hash-for-method="testGetText">testGetText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestGrocery" hash-for-method="testGroceryButton">testGroceryButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestGrocery" hash-for-method="testGroceryText">testGroceryText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testHoverShopAllDepartments">testHoverShopAllDepartments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testListOfStringOfAllDept">testListOfStringOfAllDept</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testSignInGS.TestSignInBar" hash-for-method="testLogInByInvalidIdPassUsingGoogleSheet">testLogInByInvalidIdPassUsingGoogleSheet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestCustomerService" hash-for-method="testMembership">testMembership</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testSearchBar.TestElementSearch" hash-for-method="testMultipleByDB">testMultipleByDB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testNavigate">testNavigate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestGrocery" hash-for-method="testNegativeZipCode">testNegativeZipCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestGrocery" hash-for-method="testPhotoHover">testPhotoHover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestGrocery" hash-for-method="testPositiveZipCode">testPositiveZipCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testSearchBar.TestElementSearch" hash-for-method="testSearchByItems">testSearchByItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="triggerTest.TestTrigger" hash-for-method="testSelectFeature">testSelectFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testShowCostcoTitle">testShowCostcoTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestSignIn" hash-for-method="testSignInHardCoded">testSignInHardCoded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestSignIn" hash-for-method="testSignInIvalidEmailNPass">testSignInIvalidEmailNPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestSignIn" hash-for-method="testSizeOfSignIn">testSizeOfSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestSignIn" hash-for-method="testStatusOfCheckBox">testStatusOfCheckBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestSignIn" hash-for-method="testStatusOfSignInButton">testStatusOfSignInButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestCustomerService" hash-for-method="testTabSwitching">testTabSwitching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestHomePage" hash-for-method="testTagName">testTagName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestGrocery" hash-for-method="testTextOfZipCode">testTextOfZipCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="testPages.TestCustomerService" hash-for-method="testWindowHandle">testWindowHandle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testPages.TestCountrySelection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDismissAlert">
+                  </a> <!-- testDismissAlert -->
+                  <span class="method-name">testDismissAlert</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: //#waypoint_icons &gt; a:nth-child(1)&apos; (tried for 35 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at base.CommonAPIOfFrameWork.waitUntilClickAble(CommonAPIOfFrameWork.java:450)
+	at pages.CountrySelection.alertPopUp(CountrySelection.java:18)
+	at testPages.TestCountrySelection.testDismissAlert(TestCountrySelection.java:19)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Alifs-MacBook-Pro.local&apos;, ip: &apos;2604:2000:1700:c404:0:0:0:1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/0h/bw0hs1w908l...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52773}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 8005f9f06472a749626c2cbb4005033e
+*** Element info: {Using=css selector, value=//#waypoint_icons &gt; a:nth-child(1)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 33 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSearchBar.TestElementSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultipleByDB">
+                  </a> <!-- testMultipleByDB -->
+                  <span class="method-name">testMultipleByDB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchByItems">
+                  </a> <!-- testSearchByItems -->
+                  <span class="method-name">testSearchByItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPages.TestCountrySelection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertToString">
+                  </a> <!-- testConvertToString -->
+                  <span class="method-name">testConvertToString</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSignInGS.TestSignInBar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchItemsFromSearchBox">
+                  </a> <!-- SearchItemsFromSearchBox -->
+                  <span class="method-name">SearchItemsFromSearchBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogInByInvalidIdPassUsingGoogleSheet">
+                  </a> <!-- testLogInByInvalidIdPassUsingGoogleSheet -->
+                  <span class="method-name">testLogInByInvalidIdPassUsingGoogleSheet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPages.TestHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hoverPharmacy">
+                  </a> <!-- hoverPharmacy -->
+                  <span class="method-name">hoverPharmacy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllDept">
+                  </a> <!-- testAllDept -->
+                  <span class="method-name">testAllDept</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllInput">
+                  </a> <!-- testAllInput -->
+                  <span class="method-name">testAllInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCostcoLogo">
+                  </a> <!-- testCostcoLogo -->
+                  <span class="method-name">testCostcoLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCurrentURL">
+                  </a> <!-- testCurrentURL -->
+                  <span class="method-name">testCurrentURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDropDownOfAll">
+                  </a> <!-- testDropDownOfAll -->
+                  <span class="method-name">testDropDownOfAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDropdownOfAll">
+                  </a> <!-- testDropdownOfAll -->
+                  <span class="method-name">testDropdownOfAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEnableStatusSearchBar">
+                  </a> <!-- testEnableStatusSearchBar -->
+                  <span class="method-name">testEnableStatusSearchBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllDept">
+                  </a> <!-- testGetAllDept -->
+                  <span class="method-name">testGetAllDept</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllLinks">
+                  </a> <!-- testGetAllLinks -->
+                  <span class="method-name">testGetAllLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHoverShopAllDepartments">
+                  </a> <!-- testHoverShopAllDepartments -->
+                  <span class="method-name">testHoverShopAllDepartments</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListOfStringOfAllDept">
+                  </a> <!-- testListOfStringOfAllDept -->
+                  <span class="method-name">testListOfStringOfAllDept</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigate">
+                  </a> <!-- testNavigate -->
+                  <span class="method-name">testNavigate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShowCostcoTitle">
+                  </a> <!-- testShowCostcoTitle -->
+                  <span class="method-name">testShowCostcoTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTagName">
+                  </a> <!-- testTagName -->
+                  <span class="method-name">testTagName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPages.TestSignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openSignInBar">
+                  </a> <!-- openSignInBar -->
+                  <span class="method-name">openSignInBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignInHardCoded">
+                  </a> <!-- testSignInHardCoded -->
+                  <span class="method-name">testSignInHardCoded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignInIvalidEmailNPass">
+                  </a> <!-- testSignInIvalidEmailNPass -->
+                  <span class="method-name">testSignInIvalidEmailNPass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSizeOfSignIn">
+                  </a> <!-- testSizeOfSignIn -->
+                  <span class="method-name">testSizeOfSignIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStatusOfCheckBox">
+                  </a> <!-- testStatusOfCheckBox -->
+                  <span class="method-name">testStatusOfCheckBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStatusOfSignInButton">
+                  </a> <!-- testStatusOfSignInButton -->
+                  <span class="method-name">testStatusOfSignInButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">triggerTest.TestTrigger</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectFeature">
+                  </a> <!-- testSelectFeature -->
+                  <span class="method-name">testSelectFeature</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPages.TestCustomerService</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreditCard">
+                  </a> <!-- testCreditCard -->
+                  <span class="method-name">testCreditCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCustomerService">
+                  </a> <!-- testCustomerService -->
+                  <span class="method-name">testCustomerService</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMembership">
+                  </a> <!-- testMembership -->
+                  <span class="method-name">testMembership</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTabSwitching">
+                  </a> <!-- testTabSwitching -->
+                  <span class="method-name">testTabSwitching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWindowHandle">
+                  </a> <!-- testWindowHandle -->
+                  <span class="method-name">testWindowHandle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPages.TestGrocery</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="photoHoverTest2">
+                  </a> <!-- photoHoverTest2 -->
+                  <span class="method-name">photoHoverTest2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClearZipCode">
+                  </a> <!-- testClearZipCode -->
+                  <span class="method-name">testClearZipCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDefaultWindow">
+                  </a> <!-- testDefaultWindow -->
+                  <span class="method-name">testDefaultWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetText">
+                  </a> <!-- testGetText -->
+                  <span class="method-name">testGetText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGroceryButton">
+                  </a> <!-- testGroceryButton -->
+                  <span class="method-name">testGroceryButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGroceryText">
+                  </a> <!-- testGroceryText -->
+                  <span class="method-name">testGroceryText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNegativeZipCode">
+                  </a> <!-- testNegativeZipCode -->
+                  <span class="method-name">testNegativeZipCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPhotoHover">
+                  </a> <!-- testPhotoHover -->
+                  <span class="method-name">testPhotoHover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPositiveZipCode">
+                  </a> <!-- testPositiveZipCode -->
+                  <span class="method-name">testPositiveZipCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTextOfZipCode">
+                  </a> <!-- testTextOfZipCode -->
+                  <span class="method-name">testTextOfZipCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;triggerTest.TestTrigger&quot;/&gt;
+      &lt;class name=&quot;testPages.TestGrocery&quot;/&gt;
+      &lt;class name=&quot;testPages.TestHomePage&quot;/&gt;
+      &lt;class name=&quot;testPages.TestCustomerService&quot;/&gt;
+      &lt;class name=&quot;testPages.TestCountrySelection&quot;/&gt;
+      &lt;class name=&quot;testPages.TestBilling&quot;/&gt;
+      &lt;class name=&quot;testPages.TestSignIn&quot;/&gt;
+      &lt;class name=&quot;testSignInGS.TestSignInBar&quot;/&gt;
+      &lt;class name=&quot;testSearchBar.TestElementSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(44);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMultipleByDB')
+data.setCell(0, 2, 'testSearchBar.TestElementSearch')
+data.setCell(0, 3, 56298);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testDismissAlert')
+data.setCell(1, 2, 'testPages.TestCountrySelection')
+data.setCell(1, 3, 36553);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testNegativeZipCode')
+data.setCell(2, 2, 'testPages.TestGrocery')
+data.setCell(2, 3, 22965);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLogInByInvalidIdPassUsingGoogleSheet')
+data.setCell(3, 2, 'testSignInGS.TestSignInBar')
+data.setCell(3, 3, 21858);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPositiveZipCode')
+data.setCell(4, 2, 'testPages.TestGrocery')
+data.setCell(4, 3, 21701);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testClearZipCode')
+data.setCell(5, 2, 'testPages.TestGrocery')
+data.setCell(5, 3, 21643);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'SearchItemsFromSearchBox')
+data.setCell(6, 2, 'testSignInGS.TestSignInBar')
+data.setCell(6, 3, 19350);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testNavigate')
+data.setCell(7, 2, 'testPages.TestHomePage')
+data.setCell(7, 3, 12090);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testTabSwitching')
+data.setCell(8, 2, 'testPages.TestCustomerService')
+data.setCell(8, 3, 8559);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testWindowHandle')
+data.setCell(9, 2, 'testPages.TestCustomerService')
+data.setCell(9, 3, 6687);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSignInIvalidEmailNPass')
+data.setCell(10, 2, 'testPages.TestSignIn')
+data.setCell(10, 3, 5114);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCurrentURL')
+data.setCell(11, 2, 'testPages.TestHomePage')
+data.setCell(11, 3, 5045);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSignInHardCoded')
+data.setCell(12, 2, 'testPages.TestSignIn')
+data.setCell(12, 3, 5020);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCreditCard')
+data.setCell(13, 2, 'testPages.TestCustomerService')
+data.setCell(13, 3, 4866);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testDefaultWindow')
+data.setCell(14, 2, 'testPages.TestGrocery')
+data.setCell(14, 3, 4455);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSelectFeature')
+data.setCell(15, 2, 'triggerTest.TestTrigger')
+data.setCell(15, 3, 4384);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testMembership')
+data.setCell(16, 2, 'testPages.TestCustomerService')
+data.setCell(16, 3, 4033);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testGetAllLinks')
+data.setCell(17, 2, 'testPages.TestHomePage')
+data.setCell(17, 3, 2840);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testCustomerService')
+data.setCell(18, 2, 'testPages.TestCustomerService')
+data.setCell(18, 3, 2631);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testStatusOfSignInButton')
+data.setCell(19, 2, 'testPages.TestSignIn')
+data.setCell(19, 3, 2254);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testGroceryButton')
+data.setCell(20, 2, 'testPages.TestGrocery')
+data.setCell(20, 3, 1810);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testGetText')
+data.setCell(21, 2, 'testPages.TestGrocery')
+data.setCell(21, 3, 1454);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testSearchByItems')
+data.setCell(22, 2, 'testSearchBar.TestElementSearch')
+data.setCell(22, 3, 1420);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testTextOfZipCode')
+data.setCell(23, 2, 'testPages.TestGrocery')
+data.setCell(23, 3, 1364);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'openSignInBar')
+data.setCell(24, 2, 'testPages.TestSignIn')
+data.setCell(24, 3, 1323);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'photoHoverTest2')
+data.setCell(25, 2, 'testPages.TestGrocery')
+data.setCell(25, 3, 1204);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testStatusOfCheckBox')
+data.setCell(26, 2, 'testPages.TestSignIn')
+data.setCell(26, 3, 1074);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testDropdownOfAll')
+data.setCell(27, 2, 'testPages.TestHomePage')
+data.setCell(27, 3, 302);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testAllInput')
+data.setCell(28, 2, 'testPages.TestHomePage')
+data.setCell(28, 3, 298);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testTagName')
+data.setCell(29, 2, 'testPages.TestHomePage')
+data.setCell(29, 3, 271);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'search')
+data.setCell(30, 2, 'testPages.TestHomePage')
+data.setCell(30, 3, 226);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testEnableStatusSearchBar')
+data.setCell(31, 2, 'testPages.TestHomePage')
+data.setCell(31, 3, 216);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testAllDept')
+data.setCell(32, 2, 'testPages.TestHomePage')
+data.setCell(32, 3, 202);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testHoverShopAllDepartments')
+data.setCell(33, 2, 'testPages.TestHomePage')
+data.setCell(33, 3, 96);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testPhotoHover')
+data.setCell(34, 2, 'testPages.TestGrocery')
+data.setCell(34, 3, 66);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testDropDownOfAll')
+data.setCell(35, 2, 'testPages.TestHomePage')
+data.setCell(35, 3, 62);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testGroceryText')
+data.setCell(36, 2, 'testPages.TestGrocery')
+data.setCell(36, 3, 50);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testListOfStringOfAllDept')
+data.setCell(37, 2, 'testPages.TestHomePage')
+data.setCell(37, 3, 49);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'hoverPharmacy')
+data.setCell(38, 2, 'testPages.TestHomePage')
+data.setCell(38, 3, 48);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testCostcoLogo')
+data.setCell(39, 2, 'testPages.TestHomePage')
+data.setCell(39, 3, 47);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testSizeOfSignIn')
+data.setCell(40, 2, 'testPages.TestSignIn')
+data.setCell(40, 3, 21);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testShowCostcoTitle')
+data.setCell(41, 2, 'testPages.TestHomePage')
+data.setCell(41, 3, 8);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testGetAllDept')
+data.setCell(42, 2, 'testPages.TestHomePage')
+data.setCell(42, 3, 7);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testConvertToString')
+data.setCell(43, 2, 'testPages.TestCountrySelection')
+data.setCell(43, 3, 2);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCurrentURL</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Current URL</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testConvertToString</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestCountrySelection: test Convert To String</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSignInHardCoded</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestSignIn: test Sign In Hard Coded</span>
+                <span class="reporter-method-output">SignInOrRegister: sign Up Hard Coded</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGetText</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestGrocery: test Get Text</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">hoverPharmacy</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: hover Pharmacy</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSignInIvalidEmailNPass</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestSignIn: test Sign In Ivalid Email N Pass</span>
+                <span class="reporter-method-output">SignInOrRegister: invalid Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDropdownOfAll</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Dropdown Of All</span>
+                <span class="reporter-method-output">TestHomePage: all Dropdown</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testStatusOfCheckBox</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestSignIn: test Status Of Check Box</span>
+                <span class="reporter-method-output">TestSignIn: check Box Select Status</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSizeOfSignIn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestSignIn: test Size Of Sign In</span>
+                <span class="reporter-method-output">SignInOrRegister: size Of Sign In</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testPhotoHover</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestGrocery: test Photo Hover</span>
+                <span class="reporter-method-output">Grocery: photo Hover Test</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testEnableStatusSearchBar</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Enable Status Search Bar</span>
+                <span class="reporter-method-output">TestHomePage: enable Status Search Bar</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGetAllDept</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Get All Dept</span>
+                <span class="reporter-method-output">HomePage: get Alldepartments</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testNavigate</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Navigate</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLogInByInvalidIdPassUsingGoogleSheet</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestSignInBar: test Log In By Invalid Id Pass Using Google Sheet</span>
+                <span class="reporter-method-output">SignInGS: sign In By Invalid Id Pass</span>
+                <span class="reporter-method-output">SignInGS: get Spread Sheet Records</span>
+                <span class="reporter-method-output">SignInGS: get Spread Sheet Records</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMembership</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestCustomerService: test Membership</span>
+                <span class="reporter-method-output">CustomerService: membership End</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testNegativeZipCode</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestGrocery: test Negative Zip Code</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testHoverShopAllDepartments</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Hover Shop All Departments</span>
+                <span class="reporter-method-output">TestHomePage: hover Shop All Departments</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testWindowHandle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestCustomerService: test Window Handle</span>
+                <span class="reporter-method-output">CustomerService: pop New Window</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAllInput</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test All Input</span>
+                <span class="reporter-method-output">HomePage: getclick</span>
+                <span class="reporter-method-output">HomePage: get All Input</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGroceryButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestGrocery: test Grocery Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testTabSwitching</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestCustomerService: test Tab Switching</span>
+                <span class="reporter-method-output">CustomerService: tab Switching</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDefaultWindow</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestGrocery: test Default Window</span>
+                <span class="reporter-method-output">TestGrocery: default Checking</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testPositiveZipCode</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestGrocery: test Positive Zip Code</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClearZipCode</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestGrocery: test Clear Zip Code</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMultipleByDB</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestElementSearch: test Multiple By DB</span>
+                <span class="reporter-method-output">TestElementSearch: sign In Input</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAllDept</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test All Dept</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCreditCard</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestCustomerService: test Credit Card</span>
+                <span class="reporter-method-output">CustomerService: credit Card End</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchItemsFromSearchBox</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestSignInBar: Search Items From Search Box</span>
+                <span class="reporter-method-output">SignInGS: search Items By Name</span>
+                <span class="reporter-method-output">SignInGS: get Spread Sheet Records</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGetAllLinks</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Get All Links</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">search</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: search</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">openSignInBar</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestSignIn: open Sign In Bar</span>
+                <span class="reporter-method-output">SignInOrRegister: opening Sign In Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDropDownOfAll</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Drop Down Of All</span>
+                <span class="reporter-method-output">TestHomePage: all Drop Down 2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testTextOfZipCode</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestGrocery: test Text Of Zip Code</span>
+                <span class="reporter-method-output">Grocery: zip Code Text</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testShowCostcoTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Show Costco Title</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCustomerService</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestCustomerService: test Customer Service</span>
+                <span class="reporter-method-output">CustomerService: search Customer Service</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGroceryText</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestGrocery: test Grocery Text</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testStatusOfSignInButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestSignIn: test Status Of Sign In Button</span>
+                <span class="reporter-method-output">TestSignIn: sign In Button Enable Status</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCostcoLogo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Costco Logo</span>
+                <span class="reporter-method-output">TestHomePage: logo Validation</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchByItems</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestElementSearch: test Search By Items</span>
+                <span class="reporter-method-output">ElementSearch: search By Items</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">photoHoverTest2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestGrocery: photo Hover Test 2</span>
+                <span class="reporter-method-output">Grocery: photo Hover</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testListOfStringOfAllDept</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test List Of String Of All Dept</span>
+                <span class="reporter-method-output">TestHomePage: list Of String Of All Dept</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testTagName</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomePage: test Tag Name</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDismissAlert</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestCountrySelection: test Dismiss Alert</span>
+                <span class="reporter-method-output">CountrySelection: alert Pop Up</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">16 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testSearchBar.TestElementSearch</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testPages.TestCountrySelection</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testSignInGS.TestSignInBar</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testPages.TestHomePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testPages.TestSignIn</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testPages.TestCustomerService</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testPages.TestGrocery</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testPages.TestBilling</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">triggerTest.TestTrigger</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@3a988299)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPages.TestSignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestSignIn.openSignInBar())</span>
+                <span class="method-start">4031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">4035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openSignInBar</span>
+                <span class="method-start">4041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=openSignInBar status=SUCCESS method=TestSignIn.openSignInBar()[pri:0, instance:test...)</span>
+                <span class="method-start">5365 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">5627 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">5627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestSignIn.testSignInHardCoded() throws java.lang.InterruptedException)</span>
+                <span class="method-start">9022 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">9022 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignInHardCoded</span>
+                <span class="method-start">9023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSignInHardCoded status=SUCCESS method=TestSignIn.testSignInHardCoded()[pri:0, i...)</span>
+                <span class="method-start">14044 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">14071 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">14071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestSignIn.testSignInIvalidEmailNPass() throws java.lang.InterruptedException)</span>
+                <span class="method-start">17405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">17405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignInIvalidEmailNPass</span>
+                <span class="method-start">17406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSignInIvalidEmailNPass status=SUCCESS method=TestSignIn.testSignInIvalidEmailNP...)</span>
+                <span class="method-start">22520 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">22545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">22545 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestSignIn.testSizeOfSignIn())</span>
+                <span class="method-start">25904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">25905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSizeOfSignIn</span>
+                <span class="method-start">25906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSizeOfSignIn status=SUCCESS method=TestSignIn.testSizeOfSignIn()[pri:0, instanc...)</span>
+                <span class="method-start">25927 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">25955 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">25956 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestSignIn.testStatusOfCheckBox())</span>
+                <span class="method-start">29495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">29495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testStatusOfCheckBox</span>
+                <span class="method-start">29496 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testStatusOfCheckBox status=SUCCESS method=TestSignIn.testStatusOfCheckBox()[pri:0,...)</span>
+                <span class="method-start">30571 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">30596 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">30596 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestSignIn.testStatusOfSignInButton())</span>
+                <span class="method-start">34099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">34100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testStatusOfSignInButton</span>
+                <span class="method-start">34101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testStatusOfSignInButton status=SUCCESS method=TestSignIn.testStatusOfSignInButton(...)</span>
+                <span class="method-start">36355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">36377 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">triggerTest.TestTrigger</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">36378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void triggerTest.TestTrigger.testSelectFeature() throws java.io.IOException,java.lang.Interru...)</span>
+                <span class="method-start">39959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">39959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectFeature</span>
+                <span class="method-start">39960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSelectFeature status=SUCCESS method=TestTrigger.testSelectFeature()[pri:0, inst...)</span>
+                <span class="method-start">44344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">44365 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPages.TestGrocery</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">44366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestGrocery.photoHoverTest2())</span>
+                <span class="method-start">47892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">47893 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">photoHoverTest2</span>
+                <span class="method-start">47893 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=photoHoverTest2 status=SUCCESS method=TestGrocery.photoHoverTest2()[pri:0, instance...)</span>
+                <span class="method-start">49097 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">49121 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">49121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestGrocery.testClearZipCode())</span>
+                <span class="method-start">52834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">52835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClearZipCode</span>
+                <span class="method-start">52836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClearZipCode status=SUCCESS method=TestGrocery.testClearZipCode()[pri:0, instan...)</span>
+                <span class="method-start">74479 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">74501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">74502 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestGrocery.testDefaultWindow())</span>
+                <span class="method-start">77969 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">77970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDefaultWindow</span>
+                <span class="method-start">77970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testDefaultWindow status=SUCCESS method=TestGrocery.testDefaultWindow()[pri:0, inst...)</span>
+                <span class="method-start">82425 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">82443 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">82444 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestGrocery.testGetText())</span>
+                <span class="method-start">86056 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">86057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetText</span>
+                <span class="method-start">86058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGetText status=SUCCESS method=TestGrocery.testGetText()[pri:0, instance:testPag...)</span>
+                <span class="method-start">87512 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">87533 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">87534 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestGrocery.testGroceryText())</span>
+                <span class="method-start">91237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">91237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGroceryText</span>
+                <span class="method-start">91237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGroceryText status=SUCCESS method=TestGrocery.testGroceryText()[pri:0, instance...)</span>
+                <span class="method-start">91287 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">91307 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">91308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestGrocery.testNegativeZipCode())</span>
+                <span class="method-start">95043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">95043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNegativeZipCode</span>
+                <span class="method-start">95044 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testNegativeZipCode status=SUCCESS method=TestGrocery.testNegativeZipCode()[pri:0, ...)</span>
+                <span class="method-start">118009 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">118031 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">118031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestGrocery.testPhotoHover())</span>
+                <span class="method-start">121664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">121664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPhotoHover</span>
+                <span class="method-start">121664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testPhotoHover status=SUCCESS method=TestGrocery.testPhotoHover()[pri:0, instance:t...)</span>
+                <span class="method-start">121730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">121752 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">121753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestGrocery.testPositiveZipCode())</span>
+                <span class="method-start">125546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">125546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPositiveZipCode</span>
+                <span class="method-start">125547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testPositiveZipCode status=SUCCESS method=TestGrocery.testPositiveZipCode()[pri:0, ...)</span>
+                <span class="method-start">147248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">147277 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">147277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestGrocery.testTextOfZipCode())</span>
+                <span class="method-start">150900 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">150901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTextOfZipCode</span>
+                <span class="method-start">150901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testTextOfZipCode status=SUCCESS method=TestGrocery.testTextOfZipCode()[pri:0, inst...)</span>
+                <span class="method-start">152265 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">152296 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSignInGS.TestSignInBar</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">152297 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testSignInGS.TestSignInBar.SearchItemsFromSearchBox() throws java.io.IOException,java.la...)</span>
+                <span class="method-start">155983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">155983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchItemsFromSearchBox</span>
+                <span class="method-start">155985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=SearchItemsFromSearchBox status=SUCCESS method=TestSignInBar.SearchItemsFromSearchB...)</span>
+                <span class="method-start">175335 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">175361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">175362 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testSignInGS.TestSignInBar.testLogInByInvalidIdPassUsingGoogleSheet() throws java.io.IOE...)</span>
+                <span class="method-start">179023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">179025 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogInByInvalidIdPassUsingGoogleSheet</span>
+                <span class="method-start">179026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testLogInByInvalidIdPassUsingGoogleSheet status=SUCCESS method=TestSignInBar.testLo...)</span>
+                <span class="method-start">200884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">200902 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSearchBar.TestElementSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">200904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testSearchBar.TestElementSearch.testMultipleByDB() throws java.lang.Exception)</span>
+                <span class="method-start">204810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">204811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMultipleByDB</span>
+                <span class="method-start">204811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testMultipleByDB status=SUCCESS method=TestElementSearch.testMultipleByDB()[pri:0, ...)</span>
+                <span class="method-start">261109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">261139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">261139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testSearchBar.TestElementSearch.testSearchByItems() throws java.lang.Exception)</span>
+                <span class="method-start">265018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">265018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchByItems</span>
+                <span class="method-start">265018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchByItems status=SUCCESS method=TestElementSearch.testSearchByItems()[pri:0...)</span>
+                <span class="method-start">266438 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">266459 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPages.TestHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">266459 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.hoverPharmacy())</span>
+                <span class="method-start">270512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">270513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hoverPharmacy</span>
+                <span class="method-start">270513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=hoverPharmacy status=SUCCESS method=TestHomePage.hoverPharmacy()[pri:0, instance:te...)</span>
+                <span class="method-start">270561 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">270578 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">270579 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.search())</span>
+                <span class="method-start">274960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">274960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">274962 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=search status=SUCCESS method=TestHomePage.search()[pri:0, instance:testPages.TestHo...)</span>
+                <span class="method-start">275188 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">275213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">275214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testAllDept())</span>
+                <span class="method-start">280277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">280277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAllDept</span>
+                <span class="method-start">280278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testAllDept status=SUCCESS method=TestHomePage.testAllDept()[pri:0, instance:testPa...)</span>
+                <span class="method-start">280480 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">280509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">280510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testAllInput())</span>
+                <span class="method-start">284864 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">284864 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAllInput</span>
+                <span class="method-start">284865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testAllInput status=SUCCESS method=TestHomePage.testAllInput()[pri:0, instance:test...)</span>
+                <span class="method-start">285163 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">285191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">285191 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testCostcoLogo())</span>
+                <span class="method-start">289509 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">289509 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCostcoLogo</span>
+                <span class="method-start">289510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testCostcoLogo status=SUCCESS method=TestHomePage.testCostcoLogo()[pri:0, instance:...)</span>
+                <span class="method-start">289557 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">289582 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">289582 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testCurrentURL())</span>
+                <span class="method-start">294015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">294016 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCurrentURL</span>
+                <span class="method-start">294017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testCurrentURL status=SUCCESS method=TestHomePage.testCurrentURL()[pri:0, instance:...)</span>
+                <span class="method-start">299062 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">299094 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">299094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testDropDownOfAll())</span>
+                <span class="method-start">303639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">303640 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDropDownOfAll</span>
+                <span class="method-start">303641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testDropDownOfAll status=SUCCESS method=TestHomePage.testDropDownOfAll()[pri:0, ins...)</span>
+                <span class="method-start">303703 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">303733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">303733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testDropdownOfAll())</span>
+                <span class="method-start">308280 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">308281 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDropdownOfAll</span>
+                <span class="method-start">308282 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testDropdownOfAll status=SUCCESS method=TestHomePage.testDropdownOfAll()[pri:0, ins...)</span>
+                <span class="method-start">308584 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">308615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">308615 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testEnableStatusSearchBar())</span>
+                <span class="method-start">313094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">313095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEnableStatusSearchBar</span>
+                <span class="method-start">313095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testEnableStatusSearchBar status=SUCCESS method=TestHomePage.testEnableStatusSearch...)</span>
+                <span class="method-start">313311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">313384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">313384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testGetAllDept())</span>
+                <span class="method-start">317702 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">317703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllDept</span>
+                <span class="method-start">317703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGetAllDept status=SUCCESS method=TestHomePage.testGetAllDept()[pri:0, instance:...)</span>
+                <span class="method-start">317710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">317731 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">317732 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testGetAllLinks())</span>
+                <span class="method-start">322546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">322547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllLinks</span>
+                <span class="method-start">322548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGetAllLinks status=SUCCESS method=TestHomePage.testGetAllLinks()[pri:0, instanc...)</span>
+                <span class="method-start">325388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">325411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">325411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testHoverShopAllDepartments())</span>
+                <span class="method-start">330333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">330333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHoverShopAllDepartments</span>
+                <span class="method-start">330333 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testHoverShopAllDepartments status=SUCCESS method=TestHomePage.testHoverShopAllDepa...)</span>
+                <span class="method-start">330430 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">330451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">330452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testListOfStringOfAllDept())</span>
+                <span class="method-start">335436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">335437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testListOfStringOfAllDept</span>
+                <span class="method-start">335437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testListOfStringOfAllDept status=SUCCESS method=TestHomePage.testListOfStringOfAllD...)</span>
+                <span class="method-start">335487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">335513 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">335513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testNavigate())</span>
+                <span class="method-start">340669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">340669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigate</span>
+                <span class="method-start">340670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testNavigate status=SUCCESS method=TestHomePage.testNavigate()[pri:0, instance:test...)</span>
+                <span class="method-start">352760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">352781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">352782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testShowCostcoTitle())</span>
+                <span class="method-start">357581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">357581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testShowCostcoTitle</span>
+                <span class="method-start">357582 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testShowCostcoTitle status=SUCCESS method=TestHomePage.testShowCostcoTitle()[pri:0,...)</span>
+                <span class="method-start">357590 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">357636 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">357636 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestHomePage.testTagName())</span>
+                <span class="method-start">362457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">362458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTagName</span>
+                <span class="method-start">362459 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testTagName status=SUCCESS method=TestHomePage.testTagName()[pri:0, instance:testPa...)</span>
+                <span class="method-start">362730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">362762 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPages.TestCustomerService</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">362765 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestCustomerService.testCreditCard())</span>
+                <span class="method-start">367874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">367875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreditCard</span>
+                <span class="method-start">367880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testCreditCard status=SUCCESS method=TestCustomerService.testCreditCard()[pri:0, in...)</span>
+                <span class="method-start">372747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">372776 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">372776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestCustomerService.testMembership())</span>
+                <span class="method-start">377882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">377882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMembership</span>
+                <span class="method-start">377883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testMembership status=SUCCESS method=TestCustomerService.testMembership()[pri:0, in...)</span>
+                <span class="method-start">381916 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">381971 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">381971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestCustomerService.testTabSwitching())</span>
+                <span class="method-start">389169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">389169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTabSwitching</span>
+                <span class="method-start">389170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testTabSwitching status=SUCCESS method=TestCustomerService.testTabSwitching()[pri:0...)</span>
+                <span class="method-start">397729 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">397763 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">397764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestCustomerService.testWindowHandle())</span>
+                <span class="method-start">403694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">403695 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWindowHandle</span>
+                <span class="method-start">403697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testWindowHandle status=SUCCESS method=TestCustomerService.testWindowHandle()[pri:0...)</span>
+                <span class="method-start">410384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">410439 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPages.TestCountrySelection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">410447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestCountrySelection.testConvertToString())</span>
+                <span class="method-start">416582 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">416582 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testConvertToString</span>
+                <span class="method-start">416586 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testConvertToString status=SUCCESS method=TestCountrySelection.testConvertToString(...)</span>
+                <span class="method-start">416588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">416644 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">416645 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestCountrySelection.testDismissAlert())</span>
+                <span class="method-start">423852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">423852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDismissAlert</span>
+                <span class="method-start">423853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testDismissAlert status=FAILURE method=TestCountrySelection.testDismissAlert()[pri:...)</span>
+                <span class="method-start">460440 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">460489 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPages.TestGrocery</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">460490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestGrocery.testGroceryButton())</span>
+                <span class="method-start">466589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">466589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGroceryButton</span>
+                <span class="method-start">466590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGroceryButton status=SUCCESS method=TestGrocery.testGroceryButton()[pri:1, inst...)</span>
+                <span class="method-start">468400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">468435 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPages.TestCustomerService</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome, 34, http://www.costco.com)</span>
+                <span class="method-start">468441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testPages.TestCustomerService.testCustomerService())</span>
+                <span class="method-start">475621 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElement</span>
+                <span class="method-start">475622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCustomerService</span>
+                <span class="method-start">475623 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testCustomerService status=SUCCESS method=TestCustomerService.testCustomerService()...)</span>
+                <span class="method-start">478255 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">478298 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">triggerTest.TestTrigger</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">478518 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

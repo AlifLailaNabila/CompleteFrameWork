@@ -1,0 +1,754 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>43/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 04 13:38:35 EDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>478 seconds (478091 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testPages.TestCountrySelection.testDismissAlert()'><b>testDismissAlert</b><br>Test class: testPages.TestCountrySelection<br/>
+<a href="#Output-1614761534" onClick='toggleBox("Output-1614761534", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1614761534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1614761534">
+TestCountrySelection: test Dismiss Alert<br/>
+CountrySelection: alert Pop Up<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: //#waypoint_icons &gt; a:nth-child(1)&apos; (tried for 35 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at base.CommonAPIOfFrameWork.waitUntilClickAble(CommonAPIOfFrameWork.java:450)
+	at pages.CountrySelection.alertPopUp(CountrySelection.java:18)
+	at testPages.TestCountrySelection.testDismissAlert(TestCountrySelection.java:19)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Alifs-MacBook-Pro.local&apos;, ip: &apos;2604:2000:1700:c404:0:0:0:1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/0h/bw0hs1w908l...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52773}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 8005f9f06472a749626c2cbb4005033e
+*** Element info: {Using=css selector, value=//#waypoint_icons &gt; a:nth-child(1)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 33 more
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1614761534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1614761534'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: //#waypoint_icons &gt; a:nth-child(1)&apos; (tried for 35 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at base.CommonAPIOfFrameWork.waitUntilClickAble(CommonAPIOfFrameWork.java:450)
+	at pages.CountrySelection.alertPopUp(CountrySelection.java:18)
+	at testPages.TestCountrySelection.testDismissAlert(TestCountrySelection.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Alifs-MacBook-Pro.local&apos;, ip: &apos;2604:2000:1700:c404:0:0:0:1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/0h/bw0hs1w908l...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52773}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 8005f9f06472a749626c2cbb4005033e
+*** Element info: {Using=css selector, value=//#waypoint_icons &gt; a:nth-child(1)}
+	at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 33 more
+</pre></div></td>
+<td>36</td>
+<td>testPages.TestCountrySelection@57536d79</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testSignInGS.TestSignInBar.SearchItemsFromSearchBox()'><b>SearchItemsFromSearchBox</b><br>Test class: testSignInGS.TestSignInBar<br/>
+<a href="#Output-1568450200" onClick='toggleBox("Output-1568450200", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1568450200" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1568450200">
+TestSignInBar: Search Items From Search Box<br/>
+SignInGS: search Items By Name<br/>
+SignInGS: get Spread Sheet Records<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>testSignInGS.TestSignInBar@5a8e6209</td></tr>
+<tr>
+<td title='testPages.TestHomePage.hoverPharmacy()'><b>hoverPharmacy</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-423539130" onClick='toggleBox("Output-423539130", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-423539130" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-423539130">
+TestHomePage: hover Pharmacy<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestSignIn.openSignInBar()'><b>openSignInBar</b><br>Test class: testPages.TestSignIn<br/>
+<a href="#Output-872826668" onClick='toggleBox("Output-872826668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-872826668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-872826668">
+TestSignIn: open Sign In Bar<br/>
+SignInOrRegister: opening Sign In Page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testPages.TestSignIn@3b0143d3</td></tr>
+<tr>
+<td title='testPages.TestGrocery.photoHoverTest2()'><b>photoHoverTest2</b><br>Test class: testPages.TestGrocery<br/>
+<a href="#Output-763236610" onClick='toggleBox("Output-763236610", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-763236610" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-763236610">
+TestGrocery: photo Hover Test 2<br/>
+Grocery: photo Hover<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testPages.TestGrocery@eec5a4a</td></tr>
+<tr>
+<td title='testPages.TestHomePage.search()'><b>search</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-1572582034" onClick='toggleBox("Output-1572582034", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1572582034" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1572582034">
+TestHomePage: search<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testAllDept()'><b>testAllDept</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-1583210428" onClick='toggleBox("Output-1583210428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1583210428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1583210428">
+TestHomePage: test All Dept<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testAllInput()'><b>testAllInput</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-233142783" onClick='toggleBox("Output-233142783", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-233142783" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-233142783">
+TestHomePage: test All Input<br/>
+HomePage: getclick<br/>
+HomePage: get All Input<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestGrocery.testClearZipCode()'><b>testClearZipCode</b><br>Test class: testPages.TestGrocery<br/>
+<a href="#Output-1428022141" onClick='toggleBox("Output-1428022141", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1428022141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1428022141">
+TestGrocery: test Clear Zip Code<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>testPages.TestGrocery@eec5a4a</td></tr>
+<tr>
+<td title='testPages.TestCountrySelection.testConvertToString()'><b>testConvertToString</b><br>Test class: testPages.TestCountrySelection<br/>
+<a href="#Output-1570485915" onClick='toggleBox("Output-1570485915", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1570485915" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1570485915">
+TestCountrySelection: test Convert To String<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestCountrySelection@57536d79</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testCostcoLogo()'><b>testCostcoLogo</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-1609501721" onClick='toggleBox("Output-1609501721", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1609501721" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1609501721">
+TestHomePage: test Costco Logo<br/>
+TestHomePage: logo Validation<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestCustomerService.testCreditCard()'><b>testCreditCard</b><br>Test class: testPages.TestCustomerService<br/>
+<a href="#Output-637365534" onClick='toggleBox("Output-637365534", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-637365534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-637365534">
+TestCustomerService: test Credit Card<br/>
+CustomerService: credit Card End<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testPages.TestCustomerService@6ddf90b0</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testCurrentURL()'><b>testCurrentURL</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-1589146424" onClick='toggleBox("Output-1589146424", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1589146424" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1589146424">
+TestHomePage: test Current URL<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestCustomerService.testCustomerService()'><b>testCustomerService</b><br>Test class: testPages.TestCustomerService<br/>
+<a href="#Output-1557594596" onClick='toggleBox("Output-1557594596", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1557594596" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1557594596">
+TestCustomerService: test Customer Service<br/>
+CustomerService: search Customer Service<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testPages.TestCustomerService@6ddf90b0</td></tr>
+<tr>
+<td title='testPages.TestGrocery.testDefaultWindow()'><b>testDefaultWindow</b><br>Test class: testPages.TestGrocery<br/>
+<a href="#Output-73608444" onClick='toggleBox("Output-73608444", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-73608444" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-73608444">
+TestGrocery: test Default Window<br/>
+TestGrocery: default Checking<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testPages.TestGrocery@eec5a4a</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testDropDownOfAll()'><b>testDropDownOfAll</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-817092761" onClick='toggleBox("Output-817092761", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-817092761" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-817092761">
+TestHomePage: test Drop Down Of All<br/>
+TestHomePage: all Drop Down 2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testDropdownOfAll()'><b>testDropdownOfAll</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-1924108520" onClick='toggleBox("Output-1924108520", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1924108520" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1924108520">
+TestHomePage: test Dropdown Of All<br/>
+TestHomePage: all Dropdown<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testEnableStatusSearchBar()'><b>testEnableStatusSearchBar</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-1934418561" onClick='toggleBox("Output-1934418561", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1934418561" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1934418561">
+TestHomePage: test Enable Status Search Bar<br/>
+TestHomePage: enable Status Search Bar<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testGetAllDept()'><b>testGetAllDept</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-1430395789" onClick='toggleBox("Output-1430395789", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1430395789" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1430395789">
+TestHomePage: test Get All Dept<br/>
+HomePage: get Alldepartments<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testGetAllLinks()'><b>testGetAllLinks</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-1507174141" onClick='toggleBox("Output-1507174141", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1507174141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1507174141">
+TestHomePage: test Get All Links<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestGrocery.testGetText()'><b>testGetText</b><br>Test class: testPages.TestGrocery<br/>
+<a href="#Output-1001958076" onClick='toggleBox("Output-1001958076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1001958076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1001958076">
+TestGrocery: test Get Text<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testPages.TestGrocery@eec5a4a</td></tr>
+<tr>
+<td title='testPages.TestGrocery.testGroceryButton()'><b>testGroceryButton</b><br>Test class: testPages.TestGrocery<br/>
+<a href="#Output-413944566" onClick='toggleBox("Output-413944566", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-413944566" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-413944566">
+TestGrocery: test Grocery Button<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testPages.TestGrocery@eec5a4a</td></tr>
+<tr>
+<td title='testPages.TestGrocery.testGroceryText()'><b>testGroceryText</b><br>Test class: testPages.TestGrocery<br/>
+<a href="#Output-1380361139" onClick='toggleBox("Output-1380361139", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1380361139" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1380361139">
+TestGrocery: test Grocery Text<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestGrocery@eec5a4a</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testHoverShopAllDepartments()'><b>testHoverShopAllDepartments</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-1324735779" onClick='toggleBox("Output-1324735779", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1324735779" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1324735779">
+TestHomePage: test Hover Shop All Departments<br/>
+TestHomePage: hover Shop All Departments<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testListOfStringOfAllDept()'><b>testListOfStringOfAllDept</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-1629595613" onClick='toggleBox("Output-1629595613", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1629595613" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1629595613">
+TestHomePage: test List Of String Of All Dept<br/>
+TestHomePage: list Of String Of All Dept<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testSignInGS.TestSignInBar.testLogInByInvalidIdPassUsingGoogleSheet()'><b>testLogInByInvalidIdPassUsingGoogleSheet</b><br>Test class: testSignInGS.TestSignInBar<br/>
+<a href="#Output-719727542" onClick='toggleBox("Output-719727542", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-719727542" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-719727542">
+TestSignInBar: test Log In By Invalid Id Pass Using Google Sheet<br/>
+SignInGS: sign In By Invalid Id Pass<br/>
+SignInGS: get Spread Sheet Records<br/>
+SignInGS: get Spread Sheet Records<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>testSignInGS.TestSignInBar@5a8e6209</td></tr>
+<tr>
+<td title='testPages.TestCustomerService.testMembership()'><b>testMembership</b><br>Test class: testPages.TestCustomerService<br/>
+<a href="#Output-556272827" onClick='toggleBox("Output-556272827", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-556272827" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-556272827">
+TestCustomerService: test Membership<br/>
+CustomerService: membership End<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testPages.TestCustomerService@6ddf90b0</td></tr>
+<tr>
+<td title='testSearchBar.TestElementSearch.testMultipleByDB()'><b>testMultipleByDB</b><br>Test class: testSearchBar.TestElementSearch<br/>
+<a href="#Output-902096996" onClick='toggleBox("Output-902096996", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-902096996" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-902096996">
+TestElementSearch: test Multiple By DB<br/>
+TestElementSearch: sign In Input<br/>
+</div>
+</td>
+<td></td>
+<td>56</td>
+<td>testSearchBar.TestElementSearch@4b4523f8</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testNavigate()'><b>testNavigate</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-800097023" onClick='toggleBox("Output-800097023", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-800097023" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-800097023">
+TestHomePage: test Navigate<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestGrocery.testNegativeZipCode()'><b>testNegativeZipCode</b><br>Test class: testPages.TestGrocery<br/>
+<a href="#Output-1791014677" onClick='toggleBox("Output-1791014677", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1791014677" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1791014677">
+TestGrocery: test Negative Zip Code<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>testPages.TestGrocery@eec5a4a</td></tr>
+<tr>
+<td title='testPages.TestGrocery.testPhotoHover()'><b>testPhotoHover</b><br>Test class: testPages.TestGrocery<br/>
+<a href="#Output-1363989824" onClick='toggleBox("Output-1363989824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1363989824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1363989824">
+TestGrocery: test Photo Hover<br/>
+Grocery: photo Hover Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestGrocery@eec5a4a</td></tr>
+<tr>
+<td title='testPages.TestGrocery.testPositiveZipCode()'><b>testPositiveZipCode</b><br>Test class: testPages.TestGrocery<br/>
+<a href="#Output-133205167" onClick='toggleBox("Output-133205167", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-133205167" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-133205167">
+TestGrocery: test Positive Zip Code<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>testPages.TestGrocery@eec5a4a</td></tr>
+<tr>
+<td title='testSearchBar.TestElementSearch.testSearchByItems()'><b>testSearchByItems</b><br>Test class: testSearchBar.TestElementSearch<br/>
+<a href="#Output-731979931" onClick='toggleBox("Output-731979931", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-731979931" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-731979931">
+TestElementSearch: test Search By Items<br/>
+ElementSearch: search By Items<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testSearchBar.TestElementSearch@4b4523f8</td></tr>
+<tr>
+<td title='triggerTest.TestTrigger.testSelectFeature()'><b>testSelectFeature</b><br>Test class: triggerTest.TestTrigger</td>
+<td></td>
+<td>4</td>
+<td>triggerTest.TestTrigger@210366b4</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testShowCostcoTitle()'><b>testShowCostcoTitle</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-1149650230" onClick='toggleBox("Output-1149650230", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1149650230" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1149650230">
+TestHomePage: test Show Costco Title<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestSignIn.testSignInHardCoded()'><b>testSignInHardCoded</b><br>Test class: testPages.TestSignIn<br/>
+<a href="#Output-600958416" onClick='toggleBox("Output-600958416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-600958416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-600958416">
+TestSignIn: test Sign In Hard Coded<br/>
+SignInOrRegister: sign Up Hard Coded<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testPages.TestSignIn@3b0143d3</td></tr>
+<tr>
+<td title='testPages.TestSignIn.testSignInIvalidEmailNPass()'><b>testSignInIvalidEmailNPass</b><br>Test class: testPages.TestSignIn<br/>
+<a href="#Output-1871680329" onClick='toggleBox("Output-1871680329", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1871680329" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1871680329">
+TestSignIn: test Sign In Ivalid Email N Pass<br/>
+SignInOrRegister: invalid Pass<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testPages.TestSignIn@3b0143d3</td></tr>
+<tr>
+<td title='testPages.TestSignIn.testSizeOfSignIn()'><b>testSizeOfSignIn</b><br>Test class: testPages.TestSignIn<br/>
+<a href="#Output-1730337646" onClick='toggleBox("Output-1730337646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1730337646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1730337646">
+TestSignIn: test Size Of Sign In<br/>
+SignInOrRegister: size Of Sign In<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestSignIn@3b0143d3</td></tr>
+<tr>
+<td title='testPages.TestSignIn.testStatusOfCheckBox()'><b>testStatusOfCheckBox</b><br>Test class: testPages.TestSignIn<br/>
+<a href="#Output-1548271808" onClick='toggleBox("Output-1548271808", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1548271808" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1548271808">
+TestSignIn: test Status Of Check Box<br/>
+TestSignIn: check Box Select Status<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testPages.TestSignIn@3b0143d3</td></tr>
+<tr>
+<td title='testPages.TestSignIn.testStatusOfSignInButton()'><b>testStatusOfSignInButton</b><br>Test class: testPages.TestSignIn<br/>
+<a href="#Output-567656864" onClick='toggleBox("Output-567656864", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-567656864" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-567656864">
+TestSignIn: test Status Of Sign In Button<br/>
+TestSignIn: sign In Button Enable Status<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testPages.TestSignIn@3b0143d3</td></tr>
+<tr>
+<td title='testPages.TestCustomerService.testTabSwitching()'><b>testTabSwitching</b><br>Test class: testPages.TestCustomerService<br/>
+<a href="#Output-1396827930" onClick='toggleBox("Output-1396827930", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1396827930" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1396827930">
+TestCustomerService: test Tab Switching<br/>
+CustomerService: tab Switching<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>testPages.TestCustomerService@6ddf90b0</td></tr>
+<tr>
+<td title='testPages.TestHomePage.testTagName()'><b>testTagName</b><br>Test class: testPages.TestHomePage<br/>
+<a href="#Output-1957188885" onClick='toggleBox("Output-1957188885", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1957188885" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1957188885">
+TestHomePage: test Tag Name<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPages.TestHomePage@2b2948e2</td></tr>
+<tr>
+<td title='testPages.TestGrocery.testTextOfZipCode()'><b>testTextOfZipCode</b><br>Test class: testPages.TestGrocery<br/>
+<a href="#Output-1707634104" onClick='toggleBox("Output-1707634104", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1707634104" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1707634104">
+TestGrocery: test Text Of Zip Code<br/>
+Grocery: zip Code Text<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testPages.TestGrocery@eec5a4a</td></tr>
+<tr>
+<td title='testPages.TestCustomerService.testWindowHandle()'><b>testWindowHandle</b><br>Test class: testPages.TestCustomerService<br/>
+<a href="#Output-276022884" onClick='toggleBox("Output-276022884", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-276022884" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-276022884">
+TestCustomerService: test Window Handle<br/>
+CustomerService: pop New Window<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>testPages.TestCustomerService@6ddf90b0</td></tr>
+</table><p>
+</body>
+</html>
