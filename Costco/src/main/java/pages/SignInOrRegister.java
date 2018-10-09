@@ -1,6 +1,7 @@
 package pages;
 import base.CommonAPIOfFrameWork;
 import dataReader.XlsDataReaderUtil;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.DataProvider;
@@ -28,7 +29,6 @@ public class SignInOrRegister extends CommonAPIOfFrameWork {
     public static WebElement blankPasswordError;
     @FindBy(css = "#logon > div > div > div.critical-notification.form-group")
     public static WebElement invalidPassError;
-
     public void signInClick(){
         signIn.click();
     }
@@ -131,7 +131,18 @@ public class SignInOrRegister extends CommonAPIOfFrameWork {
         Thread.sleep(900);
         signInButton.click();
         //String actual=InvalidPassError.getText();
-        String actual=(invalidPassError.getText());
-        return actual;
+        return null;
+    }
+    public String getemailError(){
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        signIn.click();
+        emailId.sendKeys("drtdtdt@gmail.com", Keys.ENTER);
+        return null;
+    }
+    public String getPassWordError(){
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        signIn.click();
+        passwordBar.sendKeys("ctctct", Keys.ENTER);
+        return null;
     }
 }

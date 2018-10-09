@@ -1,7 +1,7 @@
 /Users/alifnabila/IdeaProjects/CostcoWebAuto/Costco/src/test/java/testPages/TestGrocery.java
 /Users/alifnabila/IdeaProjects/CostcoWebAuto/Costco/src/test/java/testSearchBar/TestElementSearch.java
 /Users/alifnabila/IdeaProjects/CostcoWebAuto/Costco/src/test/java/testSignInGS/TestSignInBar.java
-/Users/alifnabila/IdeaProjects/CostcoWebAuto/Costco/src/test/java/testDataReader/SignIn.java
+/Users/alifnabila/IdeaProjects/CostcoWebAuto/Costco/src/test/java/testDataReader/TestSignInEx.java
 /Users/alifnabila/IdeaProjects/CostcoWebAuto/Costco/src/test/java/testPages/TestSignIn.java
 /Users/alifnabila/IdeaProjects/CostcoWebAuto/Costco/src/test/java/testPages/TestCustomerService.java
 /Users/alifnabila/IdeaProjects/CostcoWebAuto/Costco/src/test/java/testPages/TestBilling.java

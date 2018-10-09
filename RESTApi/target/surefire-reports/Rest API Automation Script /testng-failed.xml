@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Rest API Automation Script ]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="os_version" value="Sierra"/>
+  <parameter name="browserVersion" value="68.0"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.piit.us"/>
+  <test thread-count="5" verbose="0" name="restTestCaseRun(failed)">
+    <classes>
+      <class name="JSONServer.PostsResource">
+        <methods>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="postTest"/>
+          <include name="extentSetup"/>
+          <include name="putNullPost"/>
+          <include name="afterEachTestMethod"/>
+          <include name="deletePost"/>
+          <include name="putPost"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- JSONServer.PostsResource -->
+      <class name="OpenweatherMap.GetRequestTest">
+        <methods>
+          <include name="startExtent"/>
+          <include name="testResponseSysID"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- OpenweatherMap.GetRequestTest -->
+    </classes>
+  </test> <!-- restTestCaseRun(failed) -->
+</suite> <!-- Failed suite [Rest API Automation Script ] -->

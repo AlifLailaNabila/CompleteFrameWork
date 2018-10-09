@@ -3,6 +3,9 @@ package pages;
 import base.CommonAPIOfFrameWork;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
+
+import java.security.Key;
 
 public class BillingSystem extends CommonAPIOfFrameWork {
     @FindBy(id = "cart-d")
@@ -15,15 +18,21 @@ public class BillingSystem extends CommonAPIOfFrameWork {
     public static WebElement addToCart;
     @FindBy(css = "#postal-code-input")
     public static WebElement zip;
+    @FindBy(css = "#postal-code-input")
+    public static WebElement zipSubmit;
     @FindBy(css = "#costcoModalText > div.added-items > div > ul > li.item-details > div.row > div.col-md-5.hidden-xs.hidden-sm > p")
     public static WebElement itemAdded;
+    @FindBy(css = "#Home_Ancillary_0")
+    public static WebElement grocery;
+    @FindBy(css = "#search-results > div.c_408102 > div > div > div:nth-child(1) > div.six-tiles.row.gutter > div:nth-child(4) > a > div > div")
+    public static WebElement item;
+    @FindBy(css = "#search-results > ctl:cache > div.product-list.grid > div:nth-child(1) > div > div.thumbnail > div.caption.link-behavior > div.caption > p.description > a")
+    public static WebElement firstItem;
+    @FindBy(css = "")
+    public static WebElement cont;
     public void addToCartCheck(){
-        cart.click();
-        navigate("https://www.costco.com/Namaste-Organic-Raw-Goods-Variety-Pack%2C-6-pack.product.100242943.html");
-        addToCart.click();
-        zip.sendKeys("11416");
-        getTextByWebElement(itemAdded);
-        System.out.println(getTextByWebElement(itemAdded));
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        grocery.click();
+        typeOnInputBox("#postal-code-input","11416");
     }
-
 }

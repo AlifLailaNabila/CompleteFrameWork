@@ -39,6 +39,14 @@ public class HomePage extends CommonAPIOfFrameWork {
     public static WebElement findWarehouse;
     @FindBy(xpath = "//a[@id='country-select']/span")
     public static WebElement uS;
+    @FindBy(css = "#Home_Ancillary_1")
+    public static WebElement businessDelivery;
+    @FindBy(css = "#Home_Ancillary_3")
+    public static WebElement optical;
+    @FindBy(css = "#Home_Ancillary_4")
+    public static WebElement pharmacy;
+    @FindBy(css = "#Home_Ancillary_5")
+    public static WebElement service;
     public void showCostcoTitle() { showTitle(driver); }
     public WebElement getSearchInput(){
         return searchInput;
@@ -50,6 +58,22 @@ public class HomePage extends CommonAPIOfFrameWork {
     public WebElement getAllInput() {
         TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
         return allInput;
+    }
+    public boolean clickBusinessDelivery(){
+        businessDelivery.click();
+        return true;
+    }
+    public boolean clickOptical(){
+        optical.click();
+        return true;
+    }
+    public boolean clickPharmacy(){
+        pharmacy.click();
+        return true;
+    }
+    public boolean clickService(){
+        service.click();
+        return true;
     }
     public void getclick(){
         TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));

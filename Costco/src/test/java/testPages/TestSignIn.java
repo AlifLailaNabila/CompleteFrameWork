@@ -56,4 +56,25 @@ public class TestSignIn extends SignInOrRegister {
         String ecpected="Your account is locked. This is either due to a rejected registration request or due to 4 unsuccessful password attempts, you will be unable to Log on. To reset your forgotten password, enter your email address in below Forget Password section. Instructions to create a new password will be sent to the email address on your account.";
         Assert.assertTrue(actual.contains(ecpected));
     }
+    @Test
+    public void testEmailError() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        signInOrRegister.getemailError();
+        String actual= getText("#LogonForm > fieldset > div:nth-child(3) > label.error");
+        String ecpected="Please enter a password.";
+        Assert.assertTrue(actual.contains(ecpected));
+    }
+    @Test
+    public void testPassError() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        signInOrRegister.getemailError();
+        String ecpected="This field is required";
+    }
+    @Test
+    public void testSignInIvalid() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        String actual=signInOrRegister.invalidPass("abcd@gmail.com","abcd");
+        String ecpected="Your account is locked. This is either due to a rejected registration request or due to 4 unsuccessful password attempts, you will be unable to Log on. To reset your forgotten password, enter your email address in below Forget Password section. Instructions to create a new password will be sent to the email address on your account.";
+        Assert.assertTrue(actual.contains(ecpected));
+    }
 }

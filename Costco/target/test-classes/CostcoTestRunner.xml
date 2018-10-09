@@ -19,7 +19,7 @@
             <class name="testPages.TestBilling"/>
             <class name="testPages.TestCountrySelection"/>
             <class name="testPages.TestCustomerService"/>
-            <class name="testDataReader.SignIn"/>
+            <class name="testDataReader.TestSignInEx"/>
             <class name="testSignInGS.TestSignInBar"/>
             <class name="triggerTest.TestTrigger"/>
             <class name="testSearchBar.TestElementSearch"/>

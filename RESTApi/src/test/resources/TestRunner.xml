@@ -2,9 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Rest API Automation Script " parallel="false">
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="68.0"/>
+    <parameter name="url" value="https://www.piit.us"/>
+
     <test name = "restTestCaseRun">
         <classes>
             <class name="JSONServer.PostsResource"/>
+            <class name="openLibrary.OpenLibraryRESTfulAPI"/>
+            <class name="OpenweatherMap.GetRequestTest"/>
+            <class name="rest.AllEmployeeRestServices"/>
+            <class name="rest.SingleEmployeeRestServices"/>
         </classes>
     </test>
 </suite>

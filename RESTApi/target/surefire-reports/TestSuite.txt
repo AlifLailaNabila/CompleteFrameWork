@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 91.468 s <<< FAILURE! - in TestSuite
+deletePost(JSONServer.PostsResource)  Time elapsed: 0.817 s  <<< FAILURE!
+java.net.ConnectException: Connection refused (Connection refused)
+	at JSONServer.PostsResource.deletePost(PostsResource.java:30)
+
+postTest(JSONServer.PostsResource)  Time elapsed: 0.052 s  <<< FAILURE!
+java.net.ConnectException: Connection refused (Connection refused)
+	at JSONServer.PostsResource.postTest(PostsResource.java:22)
+
+putNullPost(JSONServer.PostsResource)  Time elapsed: 0.022 s  <<< FAILURE!
+java.net.ConnectException: Connection refused (Connection refused)
+	at JSONServer.PostsResource.putNullPost(PostsResource.java:58)
+
+putPost(JSONServer.PostsResource)  Time elapsed: 0.015 s  <<< FAILURE!
+java.net.ConnectException: Connection refused (Connection refused)
+	at JSONServer.PostsResource.putPost(PostsResource.java:44)
+
+testResponseSysID(OpenweatherMap.GetRequestTest)  Time elapsed: 0.673 s  <<< FAILURE!
+java.lang.NullPointerException
+	at OpenweatherMap.GetRequestTest.testResponseSysID(GetRequestTest.java:50)
+

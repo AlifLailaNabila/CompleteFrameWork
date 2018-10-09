@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.HomePage;
@@ -26,7 +27,7 @@ public class TestHomePage extends HomePage {
         showCostcoTitle();
     }
     @Test
-    public void search(){
+    public void testSearchBar(){
         TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
         homePage.getSearchResult("Table");
     }
@@ -108,5 +109,30 @@ public class TestHomePage extends HomePage {
     public void testCostcoLogo(){
         TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
        logoValidation();
+    }
+    //blocking the site
+    @Test()
+    public void testBusinessDelivery(){
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        boolean actual=clickBusinessDelivery();
+        Assert.assertEquals(actual,true);
+    }
+    @Test()
+    public void testOptical(){
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        boolean actual=clickOptical();
+        Assert.assertEquals(actual,true);
+    }
+    @Test()
+    public void testpharmacy(){
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        boolean actual=clickPharmacy();
+        Assert.assertEquals(actual,true);
+    }
+    @Test()
+    public void testService(){
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        boolean actual=clickService();
+        Assert.assertEquals(actual,true);
     }
 }

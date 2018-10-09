@@ -29,20 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CostcoTestRunner.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco/src/test/resources/CostcoTestRunner.xml">
+      <file leaf-file-name="AllEmployeeRestServices.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RESTApi/src/test/java/rest/AllEmployeeRestServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/CustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="163">
+              <caret line="11" column="121" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="121" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,62 +41,78 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trigger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco/src/main/java/featureOfProduct/Trigger.java">
+      <file leaf-file-name="SignInOrRegister.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/SignInOrRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1538677176458" expanded="true" signature="573:1939" ph="..." />
-              </folding>
+            <state relative-caret-position="-380">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BillingSystem.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/BillingSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBilling.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestBilling.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCountrySelection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestCountrySelection.java">
+      <file leaf-file-name="XlsDataReaderUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/dataReader/XlsDataReaderUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Xls_Reader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/dataReader/Xls_Reader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleSheetReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/googleAPI/GoogleSheetReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="77" column="11" lean-forward="true" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HSSFWorkbook.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/org/apache/poi/hssf/usermodel/HSSFWorkbook.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="485" column="15" selection-start-line="485" selection-start-column="15" selection-end-line="485" selection-end-column="15" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#17986#17987#0" expanded="true" />
+                <element signature="e#18042#18043#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestTrigger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/triggerTest/TestTrigger.java">
+      <file leaf-file-name="SignInGS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/java/signInBar/SignInGS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="39">
+              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSignInBar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testSignInGS/TestSignInBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSignInEx.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testDataReader/TestSignInEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -114,39 +121,21 @@
         <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/base/CommonAPIOfFrameWork.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="307" column="16" selection-start-line="307" selection-start-column="16" selection-end-line="307" selection-end-column="16" />
+              <caret line="465" column="18" selection-start-line="465" selection-start-column="18" selection-end-line="465" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#10263#10264#0" expanded="true" />
+                <element signature="e#10338#10339#0" expanded="true" />
+                <element signature="e#10576#10577#0" expanded="true" />
+                <element signature="e#10619#10620#0" expanded="true" />
+                <element signature="e#10908#10909#0" expanded="true" />
+                <element signature="e#10942#10943#0" expanded="true" />
                 <element signature="e#13690#13691#0" expanded="true" />
                 <element signature="e#13731#13732#0" expanded="true" />
                 <element signature="e#14148#14149#0" expanded="true" />
                 <element signature="e#14189#14190#0" expanded="true" />
                 <element signature="e#21672#21673#0" expanded="true" />
                 <element signature="e#21739#21740#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSignIn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestSignIn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCustomerService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestCustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,14 +162,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GenericOfCostco/src/main/java/base/CommonAPICostco.java" />
-        <option value="$PROJECT_DIR$/GenericOfCostco/src/main/java/databases/ElementSearch.java" />
-        <option value="$PROJECT_DIR$/GenericOfCostco/secret.properties" />
         <option value="$PROJECT_DIR$/secret.properties" />
         <option value="$PROJECT_DIR$/GenericOfCostco/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/RESTApi/pom.xml" />
-        <option value="$PROJECT_DIR$/RESTApi/src/test/resources/TestRunner.xml" />
         <option value="$PROJECT_DIR$/GenericOfCostco/src/main/java/databases/ConnectToMongoDB.java" />
         <option value="$PROJECT_DIR$/GenericOfCostco/src/main/java/databases/Student.java" />
         <option value="$PROJECT_DIR$/GenericOfCostco/src/main/java/databases/User.java" />
@@ -197,32 +181,38 @@
         <option value="$PROJECT_DIR$/Costco/src/main/java/searchBar/ElementSearch.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/java/testSearchBar/TestElementSearch.java" />
         <option value="$PROJECT_DIR$/RESTApi/src/test/java/OpenweatherMap/GetRequestTest.java" />
-        <option value="$PROJECT_DIR$/Costco/src/test/java/testDataReader/SignIn.java" />
         <option value="$PROJECT_DIR$/Costco/src/main/java/signInBar/signIn.java" />
         <option value="$PROJECT_DIR$/Costco/src/main/java/pages/CountrySelection.java" />
-        <option value="$PROJECT_DIR$/Costco/src/main/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/java/testPages/TestGrocery.java" />
-        <option value="$PROJECT_DIR$/GenericOfCostco/src/main/java/base/CommonAPIOfFrameWork.java" />
         <option value="$PROJECT_DIR$/Costco/src/main/java/pages/Grocery.java" />
         <option value="$PROJECT_DIR$/RESTApi/src/test/java/JSONServer/PostsResource.java" />
-        <option value="$PROJECT_DIR$/Costco/src/test/java/testPages/TestSignIn.java" />
         <option value="$PROJECT_DIR$/GenericOfCostco/src/main/java/utility/DataReader.java" />
-        <option value="$PROJECT_DIR$/Costco/src/main/java/pages/SignInOrRegister.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/java/testPages/TestCountrySelection.java" />
         <option value="$PROJECT_DIR$/Costco/src/main/java/featureOfProduct/Features.java" />
-        <option value="$PROJECT_DIR$/Costco/src/test/java/testPages/TestHomePage.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/java/triggerTest/TestTrigger.java" />
         <option value="$PROJECT_DIR$/Costco/src/main/java/signInBar/SignIn.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/java/testGoogleSheet/TestSignInWithGoogleSheet.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/java/testGoogleSheet/TestSignInBar.java" />
         <option value="$PROJECT_DIR$/GenericOfCostco/src/main/java/reporting/TestLogger.java" />
-        <option value="$PROJECT_DIR$/RESTApi/src/test/java/openLibrary/OpenLibraryRESTfulAPI.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/java/testPages/TestCustomerService.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/resources/CostcoTestRunner.xml" />
         <option value="$PROJECT_DIR$/Costco/src/main/java/pages/CustomerService.java" />
         <option value="$PROJECT_DIR$/Costco/src/main/java/featureOfProduct/Trigger.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/testDataReader/SignIn.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/testDataReader/TestSignInEx.java" />
+        <option value="$PROJECT_DIR$/GenericOfCostco/src/main/java/base/CommonAPIOfFrameWork.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/pages/SignInOrRegister.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/testPages/TestSignIn.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/java/testPages/TestBilling.java" />
         <option value="$PROJECT_DIR$/Costco/src/main/java/pages/BillingSystem.java" />
+        <option value="$PROJECT_DIR$/RESTApi/src/test/java/openLibrary/OpenLibraryRESTfulAPI.java" />
+        <option value="$PROJECT_DIR$/RESTApi/src/test/java/rest/AllEmployeeRestServices.java" />
+        <option value="$PROJECT_DIR$/RESTApi/src/test/java/rest/SingleEmployeeRestServices.java" />
+        <option value="$PROJECT_DIR$/RESTApi/src/test/resources/TestRunner.xml" />
+        <option value="$PROJECT_DIR$/Costco/pom.xml" />
+        <option value="$PROJECT_DIR$/RESTApi/pom.xml" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/testPages/TestHomePage.java" />
       </list>
     </option>
   </component>
@@ -250,33 +240,6 @@
           <item name="Costco" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="CostcoWebAuto" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="CostcoWebAuto" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="GenericOfCostco" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="GenericOfCostco" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RESTApi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RESTApi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -284,7 +247,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="826" />
@@ -296,8 +259,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -360,15 +321,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CostcoWebAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CostcoWebAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="searchBar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CostcoWebAuto" type="b2602c69:ProjectViewProjectNode" />
@@ -480,33 +432,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CostcoWebAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CostcoWebAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="GenericOfCostco" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="databases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CostcoWebAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CostcoWebAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="GenericOfCostco" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataReader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CostcoWebAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CostcoWebAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="GenericOfCostco" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="googleAPI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -516,24 +441,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reporting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CostcoWebAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CostcoWebAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="GenericOfCostco" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CostcoWebAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CostcoWebAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="GenericOfCostco" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CostcoWebAuto" type="b2602c69:ProjectViewProjectNode" />
@@ -608,12 +516,29 @@
               <item name="RESTApi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CostcoWebAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CostcoWebAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="RESTApi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CostcoWebAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CostcoWebAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="RESTApi" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -653,7 +578,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestBilling.testAddToCart">
+  <component name="RunManager" selected="TestNG.TestSignInEx.testsignInWithExcel">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -673,20 +598,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestBilling.testAddToCart" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Costco" />
+    <configuration name="AllEmployeeRestServices.serverErrorCallAllEmployeeResources" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testPages.*" />
+          <option name="PATTERN" value="rest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="testPages" />
-      <option name="MAIN_CLASS_NAME" value="testPages.TestBilling" />
-      <option name="METHOD_NAME" value="testAddToCart" />
+      <option name="PACKAGE_NAME" value="rest" />
+      <option name="MAIN_CLASS_NAME" value="rest.AllEmployeeRestServices" />
+      <option name="METHOD_NAME" value="serverErrorCallAllEmployeeResources" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -702,20 +627,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestCustomerService.testCreditCard" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestElementSearch.testMultipleByDB" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Costco" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testPages.*" />
+          <option name="PATTERN" value="testSearchBar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="testPages" />
-      <option name="MAIN_CLASS_NAME" value="testPages.TestCustomerService" />
-      <option name="METHOD_NAME" value="testCreditCard" />
+      <option name="PACKAGE_NAME" value="testSearchBar" />
+      <option name="MAIN_CLASS_NAME" value="testSearchBar.TestElementSearch" />
+      <option name="METHOD_NAME" value="testMultipleByDB" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -731,20 +656,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestCustomerService.testMembership" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestElementSearch.testSearchByItems" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Costco" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testPages.*" />
+          <option name="PATTERN" value="testSearchBar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="testPages" />
-      <option name="MAIN_CLASS_NAME" value="testPages.TestCustomerService" />
-      <option name="METHOD_NAME" value="testMembership" />
+      <option name="PACKAGE_NAME" value="testSearchBar" />
+      <option name="MAIN_CLASS_NAME" value="testSearchBar.TestElementSearch" />
+      <option name="METHOD_NAME" value="testSearchByItems" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -760,20 +685,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestTrigger.testSelectFeature" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSignInEx.testSign" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Costco" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="triggerTest.*" />
+          <option name="PATTERN" value="testDataReader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="triggerTest" />
-      <option name="MAIN_CLASS_NAME" value="triggerTest.TestTrigger" />
-      <option name="METHOD_NAME" value="testSelectFeature" />
+      <option name="PACKAGE_NAME" value="testDataReader" />
+      <option name="MAIN_CLASS_NAME" value="testDataReader.TestSignInEx" />
+      <option name="METHOD_NAME" value="testSign" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -789,16 +714,22 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="/Users/alifnabila/IdeaProjects/CostcoWebAuto/Costco/src/test/resources/CostcoTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSignInEx.testsignInWithExcel" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Costco" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testDataReader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Costco/src/test/resources/CostcoTestRunner.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="testDataReader" />
+      <option name="MAIN_CLASS_NAME" value="testDataReader.TestSignInEx" />
+      <option name="METHOD_NAME" value="testsignInWithExcel" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -835,19 +766,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestCustomerService.testCreditCard" />
-      <item itemvalue="TestNG.TestCustomerService.testMembership" />
-      <item itemvalue="TestNG./Users/alifnabila/IdeaProjects/CostcoWebAuto/Costco/src/test/resources/CostcoTestRunner.xml" />
-      <item itemvalue="TestNG.TestTrigger.testSelectFeature" />
-      <item itemvalue="TestNG.TestBilling.testAddToCart" />
+      <item itemvalue="TestNG.AllEmployeeRestServices.serverErrorCallAllEmployeeResources" />
+      <item itemvalue="TestNG.TestSignInEx.testSign" />
+      <item itemvalue="TestNG.TestSignInEx.testsignInWithExcel" />
+      <item itemvalue="TestNG.TestElementSearch.testSearchByItems" />
+      <item itemvalue="TestNG.TestElementSearch.testMultipleByDB" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestBilling.testAddToCart" />
-        <item itemvalue="TestNG.TestTrigger.testSelectFeature" />
-        <item itemvalue="TestNG./Users/alifnabila/IdeaProjects/CostcoWebAuto/Costco/src/test/resources/CostcoTestRunner.xml" />
-        <item itemvalue="TestNG.TestCustomerService.testMembership" />
-        <item itemvalue="TestNG.TestCustomerService.testCreditCard" />
+        <item itemvalue="TestNG.TestSignInEx.testsignInWithExcel" />
+        <item itemvalue="TestNG.TestElementSearch.testMultipleByDB" />
+        <item itemvalue="TestNG.TestElementSearch.testSearchByItems" />
+        <item itemvalue="TestNG.TestSignInEx.testSign" />
+        <item itemvalue="TestNG.AllEmployeeRestServices.serverErrorCallAllEmployeeResources" />
       </list>
     </recent_temporary>
   </component>
@@ -865,35 +796,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_alifnabila_IdeaProjects_CostcoWebAuto_Costco_src_test_resources_CostcoTestRunner_xml - 2018.10.04 at 13h 27m 35s.xml">
-      <configuration name="/Users/alifnabila/IdeaProjects/CostcoWebAuto/Costco/src/test/resources/CostcoTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="AllEmployeeRestServices_callAllEmployeeResources - 2018.10.04 at 23h 52m 47s.xml">
+      <configuration name="AllEmployeeRestServices.callAllEmployeeResources" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestTrigger_testSelectFeature - 2018.10.04 at 13h 34m 07s.xml">
-      <configuration name="TestTrigger.testSelectFeature" configurationId="TestNG" />
+    <history-entry file="AllEmployeeRestServices_badCallAllEmployeeResources - 2018.10.04 at 23h 52m 54s.xml">
+      <configuration name="AllEmployeeRestServices.badCallAllEmployeeResources" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestTrigger_testSelectFeature - 2018.10.04 at 13h 34m 52s.xml">
-      <configuration name="TestTrigger.testSelectFeature" configurationId="TestNG" />
+    <history-entry file="AllEmployeeRestServices_serverErrorCallAllEmployeeResources - 2018.10.04 at 23h 53m 02s.xml">
+      <configuration name="AllEmployeeRestServices.serverErrorCallAllEmployeeResources" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBilling_testAddToCart - 2018.10.04 at 14h 33m 27s.xml">
-      <configuration name="TestBilling.testAddToCart" configurationId="TestNG" />
+    <history-entry file="TestSignInEx_testSign - 2018.10.07 at 10h 52m 30s.xml">
+      <configuration name="TestSignInEx.testSign" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBilling_testAddToCart - 2018.10.04 at 14h 36m 28s.xml">
-      <configuration name="TestBilling.testAddToCart" configurationId="TestNG" />
+    <history-entry file="TestSignInEx_testsignInWithExcel - 2018.10.07 at 10h 54m 34s.xml">
+      <configuration name="TestSignInEx.testsignInWithExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBilling_testAddToCart - 2018.10.04 at 14h 37m 25s.xml">
-      <configuration name="TestBilling.testAddToCart" configurationId="TestNG" />
+    <history-entry file="TestSignInEx_testsignInWithExcel - 2018.10.07 at 10h 57m 19s.xml">
+      <configuration name="TestSignInEx.testsignInWithExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBilling_testAddToCart - 2018.10.04 at 14h 38m 40s.xml">
-      <configuration name="TestBilling.testAddToCart" configurationId="TestNG" />
+    <history-entry file="TestElementSearch_testSearchByItems - 2018.10.08 at 16h 18m 45s.xml">
+      <configuration name="TestElementSearch.testSearchByItems" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBilling_testAddToCart - 2018.10.04 at 14h 39m 29s.xml">
-      <configuration name="TestBilling.testAddToCart" configurationId="TestNG" />
+    <history-entry file="TestElementSearch_testSearchByItems - 2018.10.08 at 16h 19m 04s.xml">
+      <configuration name="TestElementSearch.testSearchByItems" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBilling_testAddToCart - 2018.10.04 at 14h 54m 05s.xml">
-      <configuration name="TestBilling.testAddToCart" configurationId="TestNG" />
+    <history-entry file="TestElementSearch_testMultipleByDB - 2018.10.08 at 16h 21m 22s.xml">
+      <configuration name="TestElementSearch.testMultipleByDB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBilling_testAddToCart - 2018.10.04 at 14h 57m 16s.xml">
-      <configuration name="TestBilling.testAddToCart" configurationId="TestNG" />
+    <history-entry file="TestSignInEx_testsignInWithExcel - 2018.10.08 at 17h 25m 49s.xml">
+      <configuration name="TestSignInEx.testsignInWithExcel" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -908,13 +839,13 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50069445" side_tool="true" weight="0.32742155" />
       <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.25822604" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49930555" visible="true" weight="0.36402267" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49930555" visible="true" weight="0.36402267" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3286119" />
       <window_info anchor="right" id="Mongo Explorer" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32719547" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20457797" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20457797" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -928,35 +859,6 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3286119" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32786885" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32998565" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20457797" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49930555" visible="true" weight="0.3286119" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32916668" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.14383562" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Mongo Explorer" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50069445" side_tool="true" weight="0.32742155" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.0056657223" />
-      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.101573676" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -967,104 +869,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="138" column="28" lean-forward="true" selection-start-line="138" selection-start-column="28" selection-end-line="138" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.6/rest-assured-3.0.6.jar!/io/restassured/specification/RequestSpecification.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar!/org/json/simple/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.6/rest-assured-3.0.6.jar!/io/restassured/response/Response.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RESTApi/src/test/resources/TestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/databases/ConnectToMongoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/databases/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/databases/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/googleAPI/GoogleSheetReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="77" column="11" lean-forward="true" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/reporting/ApplicationLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="144" column="92" selection-start-line="144" selection-start-column="92" selection-end-line="144" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenericOfCostco/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-606">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1075,87 +883,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/Grocery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/dataReader/XlsDataReaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/dataReader/Xls_Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="152" column="36" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RESTApi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/searchBar/ElementSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.6/rest-assured-3.0.6.jar!/io/restassured/specification/RequestSenderOptions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.6/rest-assured-3.0.6.jar!/io/restassured/RestAssured.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="174" column="27" selection-start-line="174" selection-start-column="27" selection-end-line="174" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1177,11 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,6 +915,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/CountrySelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTApi/src/test/java/OpenweatherMap/GetRequestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTApi/src/test/java/JSONServer/PostsResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/Grocery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/triggerTest/TestTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTApi/src/test/java/openLibrary/OpenLibraryRESTfulAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="74" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1205,122 +980,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RESTApi/src/test/java/OpenweatherMap/GetRequestTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.6/rest-assured-3.0.6.jar!/io/restassured/RestAssured.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        <state relative-caret-position="140">
+          <caret line="158" column="39" selection-start-line="158" selection-start-column="39" selection-end-line="158" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.6/rest-assured-3.0.6.jar!/io/restassured/specification/RequestSpecification.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3855">
+          <caret line="275" column="25" selection-start-line="275" selection-start-column="25" selection-end-line="275" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.6/rest-assured-3.0.6.jar!/io/restassured/response/ValidatableResponseOptions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="115" column="27" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.6/rest-assured-3.0.6.jar!/io/restassured/response/ResponseOptions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTApi/src/test/java/rest/SingleEmployeeRestServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RESTApi/src/test/java/openLibrary/OpenLibraryRESTfulAPI.java">
+    <entry file="file://$PROJECT_DIR$/RESTApi/src/test/resources/TestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="83" column="44" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RESTApi/src/test/java/JSONServer/PostsResource.java">
+    <entry file="file://$PROJECT_DIR$/GenericOfCostco/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testSearchBar/TestElementSearch.java">
+    <entry file="file://$PROJECT_DIR$/RESTApi/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestHomePage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1086">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestGrocery.java">
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/BillingSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/CountrySelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/SignInOrRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1507#1508#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testDataReader/SignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testSignInGS/TestSignInBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/signInBar/SignInGS.java">
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/featureOfProduct/Trigger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestCustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1331,75 +1067,155 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="41" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testSearchBar/TestElementSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/utility/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-580">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/searchBar/ElementSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestSignIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1005">
+          <caret line="75" column="42" lean-forward="true" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/triggerTest/TestTrigger.java">
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="214">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/CustomerService.java">
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestGrocery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/featureOfProduct/Trigger.java">
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestCustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1538677176458" expanded="true" signature="573:1939" ph="..." />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestCountrySelection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="12" column="131" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="131" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestBilling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testDataReader/TestSignInEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/SignInOrRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/org/apache/poi/hssf/usermodel/HSSFWorkbook.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="485" column="15" selection-start-line="485" selection-start-column="15" selection-end-line="485" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#17986#17987#0" expanded="true" />
+            <element signature="e#18042#18043#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/dataReader/XlsDataReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/dataReader/Xls_Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/base/CommonAPIOfFrameWork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="307" column="16" selection-start-line="307" selection-start-column="16" selection-end-line="307" selection-end-column="16" />
+          <caret line="465" column="18" selection-start-line="465" selection-start-column="18" selection-end-line="465" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#10263#10264#0" expanded="true" />
+            <element signature="e#10338#10339#0" expanded="true" />
+            <element signature="e#10576#10577#0" expanded="true" />
+            <element signature="e#10619#10620#0" expanded="true" />
+            <element signature="e#10908#10909#0" expanded="true" />
+            <element signature="e#10942#10943#0" expanded="true" />
             <element signature="e#13690#13691#0" expanded="true" />
             <element signature="e#13731#13732#0" expanded="true" />
             <element signature="e#14148#14149#0" expanded="true" />
@@ -1410,10 +1226,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/pages/BillingSystem.java">
+    <entry file="file://$PROJECT_DIR$/GenericOfCostco/src/main/java/googleAPI/GoogleSheetReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        <state relative-caret-position="264">
+          <caret line="77" column="11" lean-forward="true" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/signInBar/SignInGS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testSignInGS/TestSignInBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTApi/src/test/java/rest/AllEmployeeRestServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="11" column="121" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="121" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

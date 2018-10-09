@@ -22,7 +22,7 @@ public class OpenLibraryRESTfulAPI extends CommonAPIOfFrameWork {
         rs.header("Content-Type", "application/json");
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("username","alifnabila");
-        jsonObject.put("password", "");
+        jsonObject.put("password", "archive.alif");
         rs.body(jsonObject.toJSONString());
         Response response = rs.post("https://openlibrary.org/account/login");
         int statusCode = response.getStatusCode();

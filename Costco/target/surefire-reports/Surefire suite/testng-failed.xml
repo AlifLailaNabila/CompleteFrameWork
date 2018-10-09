@@ -3,18 +3,153 @@
 <suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
   <test thread-count="1" verbose="0" name="Surefire test(failed)">
     <classes>
+      <class name="testDataReader.TestSignInEx">
+        <methods>
+          <include name="testsignInWithExcel"/>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+          <include name="initializationOfElement"/>
+        </methods>
+      </class> <!-- testDataReader.TestSignInEx -->
+      <class name="testPages.TestBilling">
+        <methods>
+          <include name="startExtent"/>
+          <include name="initializationOfElement"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="testAddToCart"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testPages.TestBilling -->
+      <class name="testPages.TestSignIn">
+        <methods>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="extentSetup"/>
+          <include name="testPassError"/>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+          <include name="testEmailError"/>
+          <include name="generateReport"/>
+          <include name="testStatusOfCheckBox"/>
+          <include name="initializationOfElement"/>
+          <include name="testSizeOfSignIn"/>
+          <include name="testSignInHardCoded"/>
+          <include name="testSignInIvalid"/>
+          <include name="testSignInIvalidEmailNPass"/>
+          <include name="testStatusOfSignInButton"/>
+        </methods>
+      </class> <!-- testPages.TestSignIn -->
       <class name="testPages.TestCountrySelection">
         <methods>
           <include name="startExtent"/>
           <include name="generateReport"/>
           <include name="cleanUp"/>
-          <include name="extentSetup"/>
           <include name="initializationOfElement"/>
+          <include name="extentSetup"/>
           <include name="testDismissAlert"/>
           <include name="afterEachTestMethod"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testPages.TestCountrySelection -->
+      <class name="triggerTest.TestTrigger">
+        <methods>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+          <include name="testSelectFeature"/>
+          <include name="initializationOfElement"/>
+        </methods>
+      </class> <!-- triggerTest.TestTrigger -->
+      <class name="testPages.TestHomePage">
+        <methods>
+          <include name="testCurrentURL"/>
+          <include name="testService"/>
+          <include name="startExtent"/>
+          <include name="initializationOfElement"/>
+          <include name="testAllDept"/>
+          <include name="testDropdownOfAll"/>
+          <include name="generateReport"/>
+          <include name="testGetAllLinks"/>
+          <include name="testShowCostcoTitle"/>
+          <include name="testEnableStatusSearchBar"/>
+          <include name="testNavigate"/>
+          <include name="testListOfStringOfAllDept"/>
+          <include name="testSearchBar"/>
+          <include name="testDropDownOfAll"/>
+          <include name="testHoverShopAllDepartments"/>
+          <include name="testpharmacy"/>
+          <include name="cleanUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testBusinessDelivery"/>
+          <include name="setUp"/>
+          <include name="testTagName"/>
+          <include name="testCostcoLogo"/>
+          <include name="testOptical"/>
+          <include name="testGetAllDept"/>
+          <include name="testAllInput"/>
+        </methods>
+      </class> <!-- testPages.TestHomePage -->
+      <class name="testSearchBar.TestElementSearch">
+        <methods>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="testMultipleByDB"/>
+          <include name="testSearchByItems"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="initializationOfElement"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testSearchBar.TestElementSearch -->
+      <class name="testPages.TestCustomerService">
+        <methods>
+          <include name="startExtent"/>
+          <include name="testCreditCard"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="testCustomerService"/>
+          <include name="extentSetup"/>
+          <include name="testMembership"/>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+          <include name="testTabSwitching"/>
+          <include name="testWindowHandle"/>
+          <include name="initializationOfElement"/>
+        </methods>
+      </class> <!-- testPages.TestCustomerService -->
+      <class name="testPages.TestGrocery">
+        <methods>
+          <include name="startExtent"/>
+          <include name="testPhotoHover"/>
+          <include name="testNegativeZipCode"/>
+          <include name="cleanUp"/>
+          <include name="testTextOfZipCode"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testGroceryButton"/>
+          <include name="setUp"/>
+          <include name="testGroceryText"/>
+          <include name="initializationOfElement"/>
+          <include name="generateReport"/>
+          <include name="photoHoverTest2"/>
+          <include name="testPositiveZipCode"/>
+          <include name="testClearZipCode"/>
+          <include name="testDefaultWindow"/>
+          <include name="testGetText"/>
+        </methods>
+      </class> <!-- testPages.TestGrocery -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

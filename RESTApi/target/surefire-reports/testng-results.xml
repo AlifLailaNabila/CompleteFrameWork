@@ -1,0 +1,1918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="4" total="25" passed="16">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/alifnabila/IdeaProjects/CostcoWebAuto/RESTApi/target/surefire-reports/html]]>
+    </line>
+    <line>
+      <![CDATA[PostsResource: delete Post]]>
+    </line>
+    <line>
+      <![CDATA[PostsResource: post Test]]>
+    </line>
+    <line>
+      <![CDATA[PostsResource: put Null Post]]>
+    </line>
+    <line>
+      <![CDATA[PostsResource: put Post]]>
+    </line>
+    <line>
+      <![CDATA[OpenLibraryRESTfulAPI: post Testin Open Library]]>
+    </line>
+    <line>
+      <![CDATA[OpenLibraryRESTfulAPI: test Deat Date]]>
+    </line>
+    <line>
+      <![CDATA[OpenLibraryRESTfulAPI: test Get]]>
+    </line>
+    <line>
+      <![CDATA[OpenLibraryRESTfulAPI: test Name]]>
+    </line>
+    <line>
+      <![CDATA[OpenLibraryRESTfulAPI: test Response Time In Log In]]>
+    </line>
+    <line>
+      <![CDATA[OpenLibraryRESTfulAPI: test Revision]]>
+    </line>
+    <line>
+      <![CDATA[OpenLibraryRESTfulAPI: testget List Name]]>
+    </line>
+    <line>
+      <![CDATA[GetRequestTest: test Response City]]>
+    </line>
+    <line>
+      <![CDATA[GetRequestTest: test Response Cod]]>
+    </line>
+    <line>
+      <![CDATA[GetRequestTest: test Response Code]]>
+    </line>
+    <line>
+      <![CDATA[GetRequestTest: test Response ID]]>
+    </line>
+    <line>
+      <![CDATA[GetRequestTest: test Response Sys ID]]>
+    </line>
+    <line>
+      <![CDATA[GetRequestTest: test Response Time]]>
+    </line>
+  </reporter-output>
+  <suite name="Rest API Automation Script " duration-ms="90702" started-at="2018-10-05T04:01:43Z" finished-at="2018-10-05T04:03:14Z">
+    <groups>
+    </groups>
+    <test name="restTestCaseRun" duration-ms="90702" started-at="2018-10-05T04:01:43Z" finished-at="2018-10-05T04:03:14Z">
+      <class name="openLibrary.OpenLibraryRESTfulAPI">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="setUp" is-config="true" duration-ms="3238" started-at="2018-10-05T04:02:03Z" finished-at="2018-10-05T04:02:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-10-05T04:02:06Z" finished-at="2018-10-05T04:02:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void openLibrary.OpenLibraryRESTfulAPI.postTestinOpenLibrary()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="postTestinOpenLibrary()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="postTestinOpenLibrary" duration-ms="1006" started-at="2018-10-05T04:02:06Z" finished-at="2018-10-05T04:02:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[OpenLibraryRESTfulAPI: post Testin Open Library]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postTestinOpenLibrary -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="afterEachTestMethod" is-config="true" duration-ms="32" started-at="2018-10-05T04:02:07Z" finished-at="2018-10-05T04:02:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postTestinOpenLibrary status=SUCCESS method=OpenLibraryRESTfulAPI.postTestinOpenLibrary()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c] output=OpenLibraryRESTfulAPI: post Testin Open Library]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:07Z" finished-at="2018-10-05T04:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="setUp" is-config="true" duration-ms="3563" started-at="2018-10-05T04:02:07Z" finished-at="2018-10-05T04:02:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-10-05T04:02:10Z" finished-at="2018-10-05T04:02:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void openLibrary.OpenLibraryRESTfulAPI.testDeatDate()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testDeatDate()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="testDeatDate" duration-ms="718" started-at="2018-10-05T04:02:10Z" finished-at="2018-10-05T04:02:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[OpenLibraryRESTfulAPI: test Deat Date]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeatDate -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="afterEachTestMethod" is-config="true" duration-ms="35" started-at="2018-10-05T04:02:11Z" finished-at="2018-10-05T04:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeatDate status=SUCCESS method=OpenLibraryRESTfulAPI.testDeatDate()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c] output=OpenLibraryRESTfulAPI: test Deat Date]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="setUp" is-config="true" duration-ms="3918" started-at="2018-10-05T04:02:11Z" finished-at="2018-10-05T04:02:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:11Z" finished-at="2018-10-05T04:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:15Z" finished-at="2018-10-05T04:02:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void openLibrary.OpenLibraryRESTfulAPI.testGet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testGet()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="testGet" duration-ms="265" started-at="2018-10-05T04:02:15Z" finished-at="2018-10-05T04:02:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[OpenLibraryRESTfulAPI: test Get]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="afterEachTestMethod" is-config="true" duration-ms="30" started-at="2018-10-05T04:02:15Z" finished-at="2018-10-05T04:02:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGet status=SUCCESS method=OpenLibraryRESTfulAPI.testGet()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c] output=OpenLibraryRESTfulAPI: test Get]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:15Z" finished-at="2018-10-05T04:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="setUp" is-config="true" duration-ms="5370" started-at="2018-10-05T04:02:15Z" finished-at="2018-10-05T04:02:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-10-05T04:02:21Z" finished-at="2018-10-05T04:02:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void openLibrary.OpenLibraryRESTfulAPI.testName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testName()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="testName" duration-ms="257" started-at="2018-10-05T04:02:21Z" finished-at="2018-10-05T04:02:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[OpenLibraryRESTfulAPI: test Name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testName -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="afterEachTestMethod" is-config="true" duration-ms="28" started-at="2018-10-05T04:02:21Z" finished-at="2018-10-05T04:02:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testName status=SUCCESS method=OpenLibraryRESTfulAPI.testName()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c] output=OpenLibraryRESTfulAPI: test Name]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="cleanUp" is-config="true" duration-ms="1" started-at="2018-10-05T04:02:21Z" finished-at="2018-10-05T04:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="setUp" is-config="true" duration-ms="5360" started-at="2018-10-05T04:02:21Z" finished-at="2018-10-05T04:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testResponseTimeInLogIn()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="testResponseTimeInLogIn" duration-ms="776" started-at="2018-10-05T04:02:26Z" finished-at="2018-10-05T04:02:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[OpenLibraryRESTfulAPI: test Response Time In Log In]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testResponseTimeInLogIn -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:26Z" finished-at="2018-10-05T04:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void openLibrary.OpenLibraryRESTfulAPI.testResponseTimeInLogIn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="afterEachTestMethod" is-config="true" duration-ms="33" started-at="2018-10-05T04:02:27Z" finished-at="2018-10-05T04:02:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResponseTimeInLogIn status=SUCCESS method=OpenLibraryRESTfulAPI.testResponseTimeInLogIn()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c] output=OpenLibraryRESTfulAPI: test Response Time In Log In]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:27Z" finished-at="2018-10-05T04:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="setUp" is-config="true" duration-ms="4312" started-at="2018-10-05T04:02:27Z" finished-at="2018-10-05T04:02:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-10-05T04:02:31Z" finished-at="2018-10-05T04:02:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void openLibrary.OpenLibraryRESTfulAPI.testRevision()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testRevision()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="testRevision" duration-ms="257" started-at="2018-10-05T04:02:31Z" finished-at="2018-10-05T04:02:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[OpenLibraryRESTfulAPI: test Revision]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRevision -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="afterEachTestMethod" is-config="true" duration-ms="31" started-at="2018-10-05T04:02:32Z" finished-at="2018-10-05T04:02:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRevision status=SUCCESS method=OpenLibraryRESTfulAPI.testRevision()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c] output=OpenLibraryRESTfulAPI: test Revision]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:32Z" finished-at="2018-10-05T04:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="setUp" is-config="true" duration-ms="2072" started-at="2018-10-05T04:02:32Z" finished-at="2018-10-05T04:02:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testgetListName()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="testgetListName" duration-ms="264" started-at="2018-10-05T04:02:34Z" finished-at="2018-10-05T04:02:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[OpenLibraryRESTfulAPI: testget List Name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testgetListName -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:34Z" finished-at="2018-10-05T04:02:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void openLibrary.OpenLibraryRESTfulAPI.testgetListName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="afterEachTestMethod" is-config="true" duration-ms="45" started-at="2018-10-05T04:02:34Z" finished-at="2018-10-05T04:02:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testgetListName status=SUCCESS method=OpenLibraryRESTfulAPI.testgetListName()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c] output=OpenLibraryRESTfulAPI: testget List Name]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:openLibrary.OpenLibraryRESTfulAPI@307f6b8c]" name="cleanUp" is-config="true" duration-ms="1" started-at="2018-10-05T04:02:34Z" finished-at="2018-10-05T04:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- openLibrary.OpenLibraryRESTfulAPI -->
+      <class name="rest.AllEmployeeRestServices">
+        <test-method status="PASS" signature="badCallAllEmployeeResources()[pri:0, instance:rest.AllEmployeeRestServices@6f195bc3]" name="badCallAllEmployeeResources" duration-ms="293" started-at="2018-10-05T04:03:08Z" finished-at="2018-10-05T04:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- badCallAllEmployeeResources -->
+        <test-method status="PASS" signature="callAllEmployeeResources()[pri:0, instance:rest.AllEmployeeRestServices@6f195bc3]" name="callAllEmployeeResources" duration-ms="1953" started-at="2018-10-05T04:03:08Z" finished-at="2018-10-05T04:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callAllEmployeeResources -->
+        <test-method status="PASS" signature="serverErrorCallAllEmployeeResources()[pri:0, instance:rest.AllEmployeeRestServices@6f195bc3]" name="serverErrorCallAllEmployeeResources" duration-ms="1970" started-at="2018-10-05T04:03:10Z" finished-at="2018-10-05T04:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serverErrorCallAllEmployeeResources -->
+      </class> <!-- rest.AllEmployeeRestServices -->
+      <class name="OpenweatherMap.GetRequestTest">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="setUp" is-config="true" duration-ms="4458" started-at="2018-10-05T04:02:34Z" finished-at="2018-10-05T04:02:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-10-05T04:02:39Z" finished-at="2018-10-05T04:02:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void OpenweatherMap.GetRequestTest.testResponseCity()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testResponseCity()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="testResponseCity" duration-ms="762" started-at="2018-10-05T04:02:39Z" finished-at="2018-10-05T04:02:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[GetRequestTest: test Response City]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testResponseCity -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="afterEachTestMethod" is-config="true" duration-ms="101" started-at="2018-10-05T04:02:39Z" finished-at="2018-10-05T04:02:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResponseCity status=SUCCESS method=GetRequestTest.testResponseCity()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14] output=GetRequestTest: test Response City]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:39Z" finished-at="2018-10-05T04:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="setUp" is-config="true" duration-ms="4650" started-at="2018-10-05T04:02:39Z" finished-at="2018-10-05T04:02:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-10-05T04:02:44Z" finished-at="2018-10-05T04:02:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void OpenweatherMap.GetRequestTest.testResponseCod()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testResponseCod()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="testResponseCod" duration-ms="646" started-at="2018-10-05T04:02:44Z" finished-at="2018-10-05T04:02:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[GetRequestTest: test Response Cod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testResponseCod -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="afterEachTestMethod" is-config="true" duration-ms="30" started-at="2018-10-05T04:02:45Z" finished-at="2018-10-05T04:02:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResponseCod status=SUCCESS method=GetRequestTest.testResponseCod()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14] output=GetRequestTest: test Response Cod]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="setUp" is-config="true" duration-ms="5664" started-at="2018-10-05T04:02:45Z" finished-at="2018-10-05T04:02:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:45Z" finished-at="2018-10-05T04:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="testResponseCode()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="testResponseCode" duration-ms="592" started-at="2018-10-05T04:02:50Z" finished-at="2018-10-05T04:02:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[GetRequestTest: test Response Code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testResponseCode -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:50Z" finished-at="2018-10-05T04:02:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void OpenweatherMap.GetRequestTest.testResponseCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="afterEachTestMethod" is-config="true" duration-ms="31" started-at="2018-10-05T04:02:51Z" finished-at="2018-10-05T04:02:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResponseCode status=SUCCESS method=GetRequestTest.testResponseCode()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14] output=GetRequestTest: test Response Code]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="cleanUp" is-config="true" duration-ms="1" started-at="2018-10-05T04:02:51Z" finished-at="2018-10-05T04:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="setUp" is-config="true" duration-ms="5355" started-at="2018-10-05T04:02:51Z" finished-at="2018-10-05T04:02:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testResponseID()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="testResponseID" duration-ms="593" started-at="2018-10-05T04:02:56Z" finished-at="2018-10-05T04:02:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[GetRequestTest: test Response ID]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testResponseID -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:56Z" finished-at="2018-10-05T04:02:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void OpenweatherMap.GetRequestTest.testResponseID()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="afterEachTestMethod" is-config="true" duration-ms="88" started-at="2018-10-05T04:02:57Z" finished-at="2018-10-05T04:02:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResponseID status=SUCCESS method=GetRequestTest.testResponseID()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14] output=GetRequestTest: test Response ID]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:57Z" finished-at="2018-10-05T04:02:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="setUp" is-config="true" duration-ms="4934" started-at="2018-10-05T04:02:57Z" finished-at="2018-10-05T04:03:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-10-05T04:03:02Z" finished-at="2018-10-05T04:03:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void OpenweatherMap.GetRequestTest.testResponseSysID()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="FAIL" signature="testResponseSysID()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="testResponseSysID" duration-ms="673" started-at="2018-10-05T04:03:02Z" finished-at="2018-10-05T04:03:03Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at OpenweatherMap.GetRequestTest.testResponseSysID(GetRequestTest.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[GetRequestTest: test Response Sys ID]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testResponseSysID -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="afterEachTestMethod" is-config="true" duration-ms="122" started-at="2018-10-05T04:03:03Z" finished-at="2018-10-05T04:03:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResponseSysID status=FAILURE method=GetRequestTest.testResponseSysID()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14] output=GetRequestTest: test Response Sys ID]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-10-05T04:03:03Z" finished-at="2018-10-05T04:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="setUp" is-config="true" duration-ms="4249" started-at="2018-10-05T04:03:03Z" finished-at="2018-10-05T04:03:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-10-05T04:03:07Z" finished-at="2018-10-05T04:03:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void OpenweatherMap.GetRequestTest.testResponseTime()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testResponseTime()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="testResponseTime" duration-ms="621" started-at="2018-10-05T04:03:07Z" finished-at="2018-10-05T04:03:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[GetRequestTest: test Response Time]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="afterEachTestMethod" is-config="true" duration-ms="22" started-at="2018-10-05T04:03:08Z" finished-at="2018-10-05T04:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResponseTime status=SUCCESS method=GetRequestTest.testResponseTime()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14] output=GetRequestTest: test Response Time]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:OpenweatherMap.GetRequestTest@7a187f14]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-10-05T04:03:08Z" finished-at="2018-10-05T04:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- OpenweatherMap.GetRequestTest -->
+      <class name="JSONServer.PostsResource">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="extentSetup" is-config="true" duration-ms="144" started-at="2018-10-05T04:01:43Z" finished-at="2018-10-05T04:01:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58833798]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/alifnabila/IdeaProjects/CostcoWebAuto/RESTApi/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="setUp" is-config="true" duration-ms="8982" started-at="2018-10-05T04:01:43Z" finished-at="2018-10-05T04:01:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="startExtent" is-config="true" duration-ms="3" started-at="2018-10-05T04:01:52Z" finished-at="2018-10-05T04:01:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void JSONServer.PostsResource.deletePost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="FAIL" signature="deletePost()[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="deletePost" duration-ms="810" started-at="2018-10-05T04:01:52Z" finished-at="2018-10-05T04:01:53Z">
+          <exception class="java.net.ConnectException">
+            <message>
+              <![CDATA[Connection refused (Connection refused)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.ConnectException: Connection refused (Connection refused)
+at java.net.PlainSocketImpl.socketConnect(Native Method)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+at java.net.Socket.connect(Socket.java:589)
+at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2128)
+at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:494)
+at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:451)
+at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1531)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1290)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1731)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy:182)
+at io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy)
+at JSONServer.PostsResource.deletePost(PostsResource.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.ConnectException -->
+          <reporter-output>
+            <line>
+              <![CDATA[PostsResource: delete Post]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deletePost -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="afterEachTestMethod" is-config="true" duration-ms="207" started-at="2018-10-05T04:01:53Z" finished-at="2018-10-05T04:01:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deletePost status=FAILURE method=PostsResource.deletePost()[pri:0, instance:JSONServer.PostsResource@2173f6d9] output=PostsResource: delete Post]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="cleanUp" is-config="true" duration-ms="1" started-at="2018-10-05T04:01:53Z" finished-at="2018-10-05T04:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="setUp" is-config="true" duration-ms="2997" started-at="2018-10-05T04:01:53Z" finished-at="2018-10-05T04:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-10-05T04:01:56Z" finished-at="2018-10-05T04:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void JSONServer.PostsResource.postTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="FAIL" signature="postTest()[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="postTest" duration-ms="52" started-at="2018-10-05T04:01:56Z" finished-at="2018-10-05T04:01:56Z">
+          <exception class="java.net.ConnectException">
+            <message>
+              <![CDATA[Connection refused (Connection refused)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.ConnectException: Connection refused (Connection refused)
+at java.net.PlainSocketImpl.socketConnect(Native Method)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+at java.net.Socket.connect(Socket.java:589)
+at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2128)
+at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)
+at io.restassured.internal.http.HTTPBuilder$post$3.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1271)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1731)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:174)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+at JSONServer.PostsResource.postTest(PostsResource.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.ConnectException -->
+          <reporter-output>
+            <line>
+              <![CDATA[PostsResource: post Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="afterEachTestMethod" is-config="true" duration-ms="35" started-at="2018-10-05T04:01:56Z" finished-at="2018-10-05T04:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postTest status=FAILURE method=PostsResource.postTest()[pri:0, instance:JSONServer.PostsResource@2173f6d9] output=PostsResource: post Test]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-10-05T04:01:56Z" finished-at="2018-10-05T04:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="setUp" is-config="true" duration-ms="3088" started-at="2018-10-05T04:01:56Z" finished-at="2018-10-05T04:01:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="putNullPost()[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="putNullPost" duration-ms="22" started-at="2018-10-05T04:01:59Z" finished-at="2018-10-05T04:01:59Z">
+          <exception class="java.net.ConnectException">
+            <message>
+              <![CDATA[Connection refused (Connection refused)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.ConnectException: Connection refused (Connection refused)
+at java.net.PlainSocketImpl.socketConnect(Native Method)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+at java.net.Socket.connect(Socket.java:589)
+at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2128)
+at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:494)
+at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:451)
+at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1531)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1290)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1731)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy:178)
+at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy)
+at JSONServer.PostsResource.putNullPost(PostsResource.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.ConnectException -->
+          <reporter-output>
+            <line>
+              <![CDATA[PostsResource: put Null Post]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- putNullPost -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-10-05T04:01:59Z" finished-at="2018-10-05T04:01:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void JSONServer.PostsResource.putNullPost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="afterEachTestMethod" is-config="true" duration-ms="37" started-at="2018-10-05T04:01:59Z" finished-at="2018-10-05T04:01:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=putNullPost status=FAILURE method=PostsResource.putNullPost()[pri:0, instance:JSONServer.PostsResource@2173f6d9] output=PostsResource: put Null Post]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-10-05T04:01:59Z" finished-at="2018-10-05T04:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="setUp" is-config="true" duration-ms="3017" started-at="2018-10-05T04:01:59Z" finished-at="2018-10-05T04:02:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-10-05T04:02:02Z" finished-at="2018-10-05T04:02:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void JSONServer.PostsResource.putPost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="FAIL" signature="putPost()[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="putPost" duration-ms="16" started-at="2018-10-05T04:02:02Z" finished-at="2018-10-05T04:02:02Z">
+          <exception class="java.net.ConnectException">
+            <message>
+              <![CDATA[Connection refused (Connection refused)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.ConnectException: Connection refused (Connection refused)
+at java.net.PlainSocketImpl.socketConnect(Native Method)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+at java.net.Socket.connect(Socket.java:589)
+at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2128)
+at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:494)
+at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:451)
+at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1531)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1290)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1731)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1737)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy:178)
+at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy)
+at JSONServer.PostsResource.putPost(PostsResource.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.ConnectException -->
+          <reporter-output>
+            <line>
+              <![CDATA[PostsResource: put Post]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- putPost -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="afterEachTestMethod" is-config="true" duration-ms="38" started-at="2018-10-05T04:02:02Z" finished-at="2018-10-05T04:02:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=putPost status=FAILURE method=PostsResource.putPost()[pri:0, instance:JSONServer.PostsResource@2173f6d9] output=PostsResource: put Post]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="cleanUp" is-config="true" duration-ms="1" started-at="2018-10-05T04:02:03Z" finished-at="2018-10-05T04:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:JSONServer.PostsResource@2173f6d9]" name="generateReport" is-config="true" duration-ms="22" started-at="2018-10-05T04:03:14Z" finished-at="2018-10-05T04:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- JSONServer.PostsResource -->
+      <class name="rest.SingleEmployeeRestServices">
+        <test-method status="PASS" signature="callSingleEmployeeResources()[pri:0, instance:rest.SingleEmployeeRestServices@51e2adc7]" name="callSingleEmployeeResources" duration-ms="1935" started-at="2018-10-05T04:03:12Z" finished-at="2018-10-05T04:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callSingleEmployeeResources -->
+      </class> <!-- rest.SingleEmployeeRestServices -->
+    </test> <!-- restTestCaseRun -->
+  </suite> <!-- Rest API Automation Script  -->
+</testng-results>

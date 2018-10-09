@@ -16,6 +16,7 @@ public class TestBilling extends BillingSystem {
     }
     @Test
     public void testAddToCart(){
-        addToCartCheck();
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        billingSystem.addToCartCheck();
     }
 }
