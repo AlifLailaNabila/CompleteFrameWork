@@ -11,14 +11,14 @@ public class TestElementSearch extends ElementSearch {
     public void initializationOfElement(){
         elementSearch=PageFactory.initElements(CommonAPIOfFrameWork.driver, ElementSearch.class);
     }
-    @Test
-    public void testSearchByItems() throws Exception {
-        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
-        elementSearch.searchByItems();
-    }
-    @Test
-    public void testMultipleByDB() throws Exception {
-        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
-        signInInput();
-    }
+//    @Test
+//    public void testSearchByItems() throws Exception {
+//        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+//        elementSearch.searchByItems();
+//    }
+//    @Test
+//    public void testMultipleByDB() throws Exception {
+//        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+//        signInInput();
+//    }
 }

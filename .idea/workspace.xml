@@ -43,7 +43,7 @@
       <file leaf-file-name="CostcoTestRunner.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Costco/src/test/resources/CostcoTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="345">
               <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
@@ -767,7 +767,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -777,13 +776,13 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.0056657223" />
       <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.25822604" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49930555" visible="true" weight="0.36402267" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49930555" weight="0.36402267" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3286119" />
       <window_info anchor="right" id="Mongo Explorer" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32719547" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20457797" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20457797" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -1185,7 +1184,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Costco/src/test/resources/CostcoTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="345">
           <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
         </state>
       </provider>

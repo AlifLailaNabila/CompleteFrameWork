@@ -14,8 +14,8 @@ public class TestTrigger  extends Trigger {
     public void initializationOfElement() {
         trigger = PageFactory.initElements(CommonAPIOfFrameWork.driver, Trigger.class);
     }
-    @Test
-    public void testSelectFeature() throws IOException, InterruptedException {
-        trigger.selectFeature();
-    }
+//    @Test
+//    public void testSelectFeature() throws IOException, InterruptedException {
+//        trigger.selectFeature();
+//    }
 }
