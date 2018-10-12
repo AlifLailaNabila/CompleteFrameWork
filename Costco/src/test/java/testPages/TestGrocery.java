@@ -27,7 +27,7 @@ public class TestGrocery extends Grocery {
         TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
         grocery.valueZipCodeCSS();
     }
-    @Test
+    //@Test
     public void testPositiveZipCode(){
         TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
         grocery.valueZipCodeCSS();

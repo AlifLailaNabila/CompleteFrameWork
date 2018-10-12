@@ -14,15 +14,15 @@
     <test name = "Search Test">
         <classes>
             <class name="testPages.TestHomePage"/>
-            <class name="testPages.TestGrocery"/>
-            <class name="testPages.TestSignIn"/>
-            <class name="testPages.TestBilling"/>
-            <class name="testPages.TestCountrySelection"/>
-            <class name="testPages.TestCustomerService"/>
-            <class name="testDataReader.TestSignInEx"/>
-            <class name="testSignInGS.TestSignInBar"/>
-            <class name="triggerTest.TestTrigger"/>
-            <class name="testSearchBar.TestElementSearch"/>
+            <!--<class name="testPages.TestGrocery"/>-->
+            <!--<class name="testPages.TestSignIn"/>-->
+            <!--<class name="testPages.TestBilling"/>-->
+            <!--<class name="testPages.TestCountrySelection"/>-->
+            <!--<class name="testPages.TestCustomerService"/>-->
+            <!--<class name="testDataReader.TestSignInEx"/>-->
+            <!--<class name="testSignInGS.TestSignInBar"/>-->
+            <!--<class name="triggerTest.TestTrigger"/>-->
+            <!--<class name="testSearchBar.TestElementSearch"/>-->
             <!--<class name="menu.MenuPage"/>-->
         </classes>
     </test>

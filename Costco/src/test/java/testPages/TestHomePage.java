@@ -111,7 +111,7 @@ public class TestHomePage extends HomePage {
        logoValidation();
     }
     //blocking the site
-    @Test()
+    //@Test()
     public void testBusinessDelivery(){
         TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
         boolean actual=clickBusinessDelivery();
@@ -123,7 +123,7 @@ public class TestHomePage extends HomePage {
         boolean actual=clickOptical();
         Assert.assertEquals(actual,true);
     }
-    @Test()
+    //@Test()
     public void testpharmacy(){
         TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
         boolean actual=clickPharmacy();

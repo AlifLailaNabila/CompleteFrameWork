@@ -13,7 +13,7 @@ public class TestCountrySelection extends CountrySelection {
         TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
         countrySelection=PageFactory.initElements(CommonAPIOfFrameWork.driver, CountrySelection.class);
     }
-    @Test
+    //@Test
     public void testDismissAlert(){
         TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
         countrySelection.alertPopUp();
