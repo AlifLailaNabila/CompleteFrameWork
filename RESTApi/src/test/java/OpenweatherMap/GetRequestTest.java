@@ -43,12 +43,12 @@ public class GetRequestTest extends CommonAPIOfFrameWork {
         int cod = jsonPathEvaluator.get("cod");
         Assert.assertEquals(cod, 200);
     }
-//    @Test
-//    public void testResponseSysID(){
-//        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
-//        JsonPath jsonPathEvaluator = get("https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22.sys.type").jsonPath();
-//        int type = jsonPathEvaluator.get("type");
-//        //System.out.println(type);
-//        //Assert.assertEquals(type,1);
-//    }
+    @Test
+    public void testResponseSysID(){
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        JsonPath jsonPathEvaluator = get("https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22.sys.type").jsonPath();
+        int type = jsonPathEvaluator.get("type");
+        //System.out.println(type);
+        //Assert.assertEquals(type,1);
+    }
 }

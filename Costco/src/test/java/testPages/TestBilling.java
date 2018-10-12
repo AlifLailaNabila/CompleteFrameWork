@@ -14,9 +14,9 @@ public class TestBilling extends BillingSystem {
         TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
         billingSystem=PageFactory.initElements(CommonAPIOfFrameWork.driver, BillingSystem.class);
     }
-//    @Test
-//    public void testAddToCart(){
-//        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
-//        billingSystem.addToCartCheck();
-//    }
+    @Test
+    public void testAddToCart(){
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        billingSystem.addToCartCheck();
+    }
 }

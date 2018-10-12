@@ -13,14 +13,14 @@ public class TestCountrySelection extends CountrySelection {
         TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
         countrySelection=PageFactory.initElements(CommonAPIOfFrameWork.driver, CountrySelection.class);
     }
-//    @Test
-//    public void testDismissAlert(){
-//        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
-//        countrySelection.alertPopUp();
-//    }
-//    @Test
-//    public void testConvertToString(){
-//        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
-//        converToString("AHIL");
-//    }
+    @Test
+    public void testDismissAlert(){
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        countrySelection.alertPopUp();
+    }
+    @Test
+    public void testConvertToString(){
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        converToString("AHIL");
+    }
 }
